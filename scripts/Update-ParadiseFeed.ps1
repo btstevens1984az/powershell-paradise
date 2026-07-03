@@ -144,7 +144,7 @@ function ConvertTo-RepoTable {
         $desc = if ($repo.Description.Length -gt 90) { $repo.Description.Substring(0, 87) + '…' } else { $repo.Description }
         $desc = ($desc -replace '<', '&lt;' -replace '>', '&gt;')
         $stars = "**$(Format-StarCount -Count $repo.Stars)**"
-        if ($ShowDelta -and $repo.StarDelta -gt 0) {
+        if ($ShowDelta -and ($repo.PSObject.Properties.Name -contains 'StarDelta') -and $repo.StarDelta -gt 0) {
             $stars = "$stars &nbsp; 🚀 **+$($repo.StarDelta)**"
         }
         $topics = Get-TopicBadges -Topics $repo.Topics
@@ -301,13 +301,13 @@ $statsYear = if ($yearRepos) { $yearRepos.Count } else { 0 }
 $readme = Get-Content -Path $ReadmePath -Raw -Encoding UTF8
 
 $readme = Set-ReadmeSection -Content $readme -Marker 'META' -NewBody @"
-<img src="https://img.shields.io/badge/Last%20Updated-$(Format-ShieldLabel $updatedLocal)-012456?style=for-the-badge&logo=clock&logoColor=white" alt="Last updated"/>
+[![Last Updated](https://img.shields.io/badge/Last_Updated-$(Format-ShieldLabel ($updatedLocal -replace ' ', '_'))-012456?style=flat-square&logo=clock&logoColor=white)](https://github.com/btstevens1984az/powershell-paradise)
 &nbsp;
-<img src="https://img.shields.io/badge/Data%20Refresh-$(Format-ShieldLabel $updatedUtc)-5EA9FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="Data refresh"/>
+[![Data Refresh](https://img.shields.io/badge/Data_Refresh-$(Format-ShieldLabel ($updatedUtc -replace ' ', '_'))-5EA9FF?style=flat-square&logo=githubactions&logoColor=white)](https://github.com/btstevens1984az/powershell-paradise/actions)
 &nbsp;
-<img src="https://img.shields.io/badge/Tracked%20Repos-$($velocityPool.Count)-00C9A7?style=for-the-badge&logo=github&logoColor=white" alt="Tracked repos"/>
+[![Tracked Repos](https://img.shields.io/badge/Tracked_Repos-$($velocityPool.Count)-00C9A7?style=flat-square&logo=github&logoColor=white)](https://github.com/btstevens1984az/powershell-paradise)
 &nbsp;
-<img src="https://img.shields.io/badge/Star%20History-$(if ($history.lastUpdated) { 'active' } else { 'building%20baseline' })-$(if ($history.lastUpdated) { 'brightgreen' } else { 'yellow' })?style=for-the-badge&logo=star&logoColor=white" alt="Star history"/>
+[![Star History](https://img.shields.io/badge/Star_History-$(if ($history.lastUpdated) { 'active' } else { 'building' })-$(if ($history.lastUpdated) { 'brightgreen' } else { 'yellow' })?style=flat-square&logo=star&logoColor=white)](https://github.com/btstevens1984az/powershell-paradise)
 "@
 
 $readme = Set-ReadmeSection -Content $readme -Marker 'STATS' -NewBody @"

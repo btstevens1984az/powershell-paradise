@@ -2,14 +2,12 @@
 
 <div align="center">
 
-<!-- Banner: external PNG (GitHub blocks repo SVGs in README) -->
-<img src="https://capsule-render.vercel.app/api/capsule?text=PowerShell%20Paradise&fontColor=f0f6ff&color=012456,1a4a8a,00c9a7&height=180&section=header&fontSize=52&type=waving" alt="PowerShell Paradise banner"/>
-
-<img src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=500&size=22&duration=3000&pause=1200&color=5EA9FF&center=true&vCenter=true&width=700&lines=Discover+%E2%80%A2+Learn+%E2%80%A2+Stay+Current;Your+daily+PowerShell+repository+newsfeed+%F0%9F%93%A1" alt="Discover · Learn · Stay Current"/>
+<!-- Banner: committed PNG (reliable on GitHub — no external CDN) -->
+<img src="assets/banner.png" alt="PowerShell Paradise — Discover · Learn · Stay Current" width="100%"/>
 
 <br/>
 
-[![Daily Update](https://github.com/btstevens1984az/powershell-paradise/actions/workflows/daily-update.yml/badge.svg)](https://github.com/btstevens1984az/powershell-paradise/actions/workflows/daily-update.yml)
+[![Daily Update](https://img.shields.io/github/actions/workflow/status/btstevens1984az/powershell-paradise/daily-update.yml?branch=main&style=for-the-badge&label=Daily%20Update)](https://github.com/btstevens1984az/powershell-paradise/actions/workflows/daily-update.yml)
 [![PowerShell](https://img.shields.io/badge/PowerShell-012456?style=for-the-badge&logo=powershell&logoColor=white)](https://learn.microsoft.com/powershell/)
 [![Auto Refresh](https://img.shields.io/badge/Tables-Auto--Updated-brightgreen?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/btstevens1984az/powershell-paradise/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
@@ -54,13 +52,13 @@
 <br/>
 
 <!-- PARADISE:META:START -->
-<img src="https://img.shields.io/badge/Last%20Updated-Thursday%2C%20July%202%2C%202026%20%C2%B7%209%3A27%20PM-012456?style=for-the-badge&logo=clock&logoColor=white" alt="Last updated"/>
+[![Last Updated](https://img.shields.io/badge/Last_Updated-Thursday%2C_July_2%2C_2026_%C2%B7_9%3A36_PM-012456?style=flat-square&logo=clock&logoColor=white)](https://github.com/btstevens1984az/powershell-paradise)
 &nbsp;
-<img src="https://img.shields.io/badge/Data%20Refresh-2026-07-03%2001%3A27%20UTC-5EA9FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="Data refresh"/>
+[![Data Refresh](https://img.shields.io/badge/Data_Refresh-2026-07-03_01%3A36_UTC-5EA9FF?style=flat-square&logo=githubactions&logoColor=white)](https://github.com/btstevens1984az/powershell-paradise/actions)
 &nbsp;
-<img src="https://img.shields.io/badge/Tracked%20Repos-100-00C9A7?style=for-the-badge&logo=github&logoColor=white" alt="Tracked repos"/>
+[![Tracked Repos](https://img.shields.io/badge/Tracked_Repos-100-00C9A7?style=flat-square&logo=github&logoColor=white)](https://github.com/btstevens1984az/powershell-paradise)
 &nbsp;
-<img src="https://img.shields.io/badge/Star%20History-active-brightgreen?style=for-the-badge&logo=star&logoColor=white" alt="Star history"/>
+[![Star History](https://img.shields.io/badge/Star_History-active-brightgreen?style=flat-square&logo=star&logoColor=white)](https://github.com/btstevens1984az/powershell-paradise)
 <!-- PARADISE:META:END -->
 
 </div>
@@ -105,35 +103,35 @@
 
 ## 🔥 Today's Top Movers
 
-<img src="https://img.shields.io/badge/Window-Today-FF6B6B?style=for-the-badge&logo=fireship&logoColor=white" alt="Today"/>
+[![Today](https://img.shields.io/badge/Window-Today-FF6B6B?style=for-the-badge&logo=powershell&logoColor=white)](https://github.com/btstevens1984az/powershell-paradise#-todays-top-movers)
 
 > Repos with the biggest **star gains** since the last refresh. First run shows recently active repos instead.
 
 <!-- PARADISE:TODAY:START -->
 | # | Project | ⭐ Stars | 🍴 Forks | About | 🕐 Updated |
 |:-:|---------|----------:|----------:|-------|------------|
-| 🥇 | <img src="https://github.com/ScoopInstaller.png?size=32" width="28" align="top"/> &nbsp;**[Extras](https://github.com/ScoopInstaller/Extras)**<br/><sub><code>ScoopInstaller/Extras</code></sub> | **2.1k** | 1.7k | 📦 The Extras bucket for Scoop.<br/> `hacktoberfest`  `scoop` | 23m ago |
-| 🥈 | <img src="https://github.com/ScoopInstaller.png?size=32" width="28" align="top"/> &nbsp;**[Main](https://github.com/ScoopInstaller/Main)**<br/><sub><code>ScoopInstaller/Main</code></sub> | **1.9k** | 1.2k | 📦 The default bucket for Scoop.<br/> `scoop`  `scoop-apps` | 24m ago |
-| 🥉 | <img src="https://github.com/Scriptez1.png?size=32" width="28" align="top"/> &nbsp;**[RedXFreeSteamInstaller](https://github.com/Scriptez1/RedXFreeSteamInstaller)**<br/><sub><code>Scriptez1/RedXFreeSteamInstaller</code></sub> | **1.4k** | 17 | It allows you to automatically add all free and paid games and DLCs to your Steam accou…<br/> `bedavasteam`  `dokuman-tv` | 8m ago |
-| **4** | <img src="https://github.com/chawyehsu.png?size=32" width="28" align="top"/> &nbsp;**[dorado](https://github.com/chawyehsu/dorado)**<br/><sub><code>chawyehsu/dorado</code></sub> | **1.2k** | 109 | 🐟 Yet Another bucket for lovely Scoop<br/> `blockchain`  `devtools` | 50m ago |
-| **5** | <img src="https://github.com/ItzLevvie.png?size=32" width="28" align="top"/> &nbsp;**[MicrosoftTeams-msinternal](https://github.com/ItzLevvie/MicrosoftTeams-msinternal)**<br/><sub><code>ItzLevvie/MicrosoftTeams-msinternal</code></sub> | **539** | 34 | This project was created from PowerShell which allows people to download the latest int…<br/> `edge`  `electron` | 19m ago |
-| **6** | <img src="https://github.com/MicrosoftDocs.png?size=32" width="28" align="top"/> &nbsp;**[power-platform](https://github.com/MicrosoftDocs/power-platform)**<br/><sub><code>MicrosoftDocs/power-platform</code></sub> | **503** | 689 | Documentation for Microsoft Power Platform | 23m ago |
-| **7** | <img src="https://github.com/chocolatey-community.png?size=32" width="28" align="top"/> &nbsp;**[chocolatey-packages](https://github.com/chocolatey-community/chocolatey-packages)**<br/><sub><code>chocolatey-community/chocolatey-packages</code></sub> | **477** | 398 | Chocolatey Community Maintainers Team Packages - packages that are managed and maintain…<br/> `hacktoberfest` | 50m ago |
-| **8** | <img src="https://github.com/REIJI007.png?size=32" width="28" align="top"/> &nbsp;**[AdBlock_Rule_For_Clash](https://github.com/REIJI007/AdBlock_Rule_For_Clash)**<br/><sub><code>REIJI007/AdBlock_Rule_For_Clash</code></sub> | **349** | 14 | 适用于Clash（premium核心与mihomo核心）的广告域名拦截RULE-SET规则集，每20分钟更新一次<br/> `adblock`  `clash` | 1h ago |
-| **9** | <img src="https://github.com/gaelcolas.png?size=32" width="28" align="top"/> &nbsp;**[Sampler](https://github.com/gaelcolas/Sampler)**<br/><sub><code>gaelcolas/Sampler</code></sub> | **237** | 47 | Module template with build pipeline and examples, including DSC elements.<br/> `automation`  `continuous-delivery` | 22m ago |
-| **10** | <img src="https://github.com/microsoftgraph.png?size=32" width="28" align="top"/> &nbsp;**[microsoft-graph-docs-contrib](https://github.com/microsoftgraph/microsoft-graph-docs-contrib)**<br/><sub><code>microsoftgraph/microsoft-graph-docs-contrib</code></sub> | **142** | 513 | Documentation for the Microsoft Graph REST API | 10m ago |
-| **11** | <img src="https://github.com/REIJI007.png?size=32" width="28" align="top"/> &nbsp;**[AdBlock_Rule_For_Sing-box](https://github.com/REIJI007/AdBlock_Rule_For_Sing-box)**<br/><sub><code>REIJI007/AdBlock_Rule_For_Sing-box</code></sub> | **142** | 20 | 适用于Sing-box的广告域名拦截RULE-SET规则集，每20分钟更新一次<br/> `adblock`  `route` | 14m ago |
-| **12** | <img src="https://github.com/bitbug0x55AA.png?size=32" width="28" align="top"/> &nbsp;**[Blue_Team_Hunting_Field_Notes](https://github.com/bitbug0x55AA/Blue_Team_Hunting_Field_Notes)**<br/><sub><code>bitbug0x55AA/Blue_Team_Hunting_Field_Notes</code></sub> | **101** | 19 | My external brain for cyber defense (WIP).  A practical collection of field notes on hu… | 14m ago |
-| **13** | <img src="https://github.com/ItzLevvie.png?size=32" width="28" align="top"/> &nbsp;**[Office16](https://github.com/ItzLevvie/Office16)**<br/><sub><code>ItzLevvie/Office16</code></sub> | **68** | 6 | This project was created from PowerShell which shows internal and external branches of …<br/> `microsoft`  `microsoft-office` | 18m ago |
-| **14** | <img src="https://github.com/Oniicyan.png?size=32" width="28" align="top"/> &nbsp;**[BT_BAN](https://github.com/Oniicyan/BT_BAN)**<br/><sub><code>Oniicyan/BT_BAN</code></sub> | **57** | 0 | — | 6m ago |
-| **15** | <img src="https://github.com/SpecterShell.png?size=32" width="28" align="top"/> &nbsp;**[Dumplings](https://github.com/SpecterShell/Dumplings)**<br/><sub><code>SpecterShell/Dumplings</code></sub> | **49** | 30 | Dump remote resources and lint outdated packages | 1h ago |
+| 🥇 | <img src="https://github.com/ChrisTitusTech.png?size=32" width="28" align="top"/> &nbsp;**[winutil](https://github.com/ChrisTitusTech/winutil)**<br/><sub><code>ChrisTitusTech/winutil</code></sub> | **57k** &nbsp; 🚀 **+2** | 3.3k | Chris Titus Tech's Windows Utility - Install Programs, Tweaks, Fixes, and Updates | 5h ago |
+| 🥈 | <img src="https://github.com/zoicware.png?size=32" width="28" align="top"/> &nbsp;**[RemoveWindowsAI](https://github.com/zoicware/RemoveWindowsAI)**<br/><sub><code>zoicware/RemoveWindowsAI</code></sub> | **12.2k** &nbsp; 🚀 **+1** | 422 | Force Remove Copilot, Recall and More in Windows 11<br/> `ai`  `bloatware` | 9h ago |
+| 🥉 | <img src="https://github.com/zhaoxuya520.png?size=32" width="28" align="top"/> &nbsp;**[reverse-skill](https://github.com/zhaoxuya520/reverse-skill)**<br/><sub><code>zhaoxuya520/reverse-skill</code></sub> | **7.2k** &nbsp; 🚀 **+1** | 1.1k | Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router P… | 4d ago |
+| **4** | <img src="https://github.com/javaht.png?size=32" width="28" align="top"/> &nbsp;**[claude-desktop-zh-cn](https://github.com/javaht/claude-desktop-zh-cn)**<br/><sub><code>javaht/claude-desktop-zh-cn</code></sub> | **4.4k** &nbsp; 🚀 **+1** | 223 | Claude Desktop Chinese Patch (macOS & Windows) | 13h ago |
+| **5** | <img src="https://github.com/ScoopInstaller.png?size=32" width="28" align="top"/> &nbsp;**[Extras](https://github.com/ScoopInstaller/Extras)**<br/><sub><code>ScoopInstaller/Extras</code></sub> | **2.1k** | 1.7k | 📦 The Extras bucket for Scoop.<br/> `hacktoberfest`  `scoop` | 32m ago |
+| **6** | <img src="https://github.com/ScoopInstaller.png?size=32" width="28" align="top"/> &nbsp;**[Main](https://github.com/ScoopInstaller/Main)**<br/><sub><code>ScoopInstaller/Main</code></sub> | **1.9k** | 1.2k | 📦 The default bucket for Scoop.<br/> `scoop`  `scoop-apps` | 33m ago |
+| **7** | <img src="https://github.com/Scriptez1.png?size=32" width="28" align="top"/> &nbsp;**[RedXFreeSteamInstaller](https://github.com/Scriptez1/RedXFreeSteamInstaller)**<br/><sub><code>Scriptez1/RedXFreeSteamInstaller</code></sub> | **1.4k** | 17 | It allows you to automatically add all free and paid games and DLCs to your Steam accou…<br/> `bedavasteam`  `dokuman-tv` | 3m ago |
+| **8** | <img src="https://github.com/chawyehsu.png?size=32" width="28" align="top"/> &nbsp;**[dorado](https://github.com/chawyehsu/dorado)**<br/><sub><code>chawyehsu/dorado</code></sub> | **1.2k** | 109 | 🐟 Yet Another bucket for lovely Scoop<br/> `blockchain`  `devtools` | 59m ago |
+| **9** | <img src="https://github.com/ItzLevvie.png?size=32" width="28" align="top"/> &nbsp;**[MicrosoftTeams-msinternal](https://github.com/ItzLevvie/MicrosoftTeams-msinternal)**<br/><sub><code>ItzLevvie/MicrosoftTeams-msinternal</code></sub> | **539** | 34 | This project was created from PowerShell which allows people to download the latest int…<br/> `edge`  `electron` | 28m ago |
+| **10** | <img src="https://github.com/MicrosoftDocs.png?size=32" width="28" align="top"/> &nbsp;**[power-platform](https://github.com/MicrosoftDocs/power-platform)**<br/><sub><code>MicrosoftDocs/power-platform</code></sub> | **503** | 689 | Documentation for Microsoft Power Platform | 32m ago |
+| **11** | <img src="https://github.com/chocolatey-community.png?size=32" width="28" align="top"/> &nbsp;**[chocolatey-packages](https://github.com/chocolatey-community/chocolatey-packages)**<br/><sub><code>chocolatey-community/chocolatey-packages</code></sub> | **477** | 398 | Chocolatey Community Maintainers Team Packages - packages that are managed and maintain…<br/> `hacktoberfest` | 59m ago |
+| **12** | <img src="https://github.com/REIJI007.png?size=32" width="28" align="top"/> &nbsp;**[AdBlock_Rule_For_Clash](https://github.com/REIJI007/AdBlock_Rule_For_Clash)**<br/><sub><code>REIJI007/AdBlock_Rule_For_Clash</code></sub> | **349** | 14 | 适用于Clash（premium核心与mihomo核心）的广告域名拦截RULE-SET规则集，每20分钟更新一次<br/> `adblock`  `clash` | 1h ago |
+| **13** | <img src="https://github.com/gaelcolas.png?size=32" width="28" align="top"/> &nbsp;**[Sampler](https://github.com/gaelcolas/Sampler)**<br/><sub><code>gaelcolas/Sampler</code></sub> | **237** | 47 | Module template with build pipeline and examples, including DSC elements.<br/> `automation`  `continuous-delivery` | 31m ago |
+| **14** | <img src="https://github.com/microsoftgraph.png?size=32" width="28" align="top"/> &nbsp;**[microsoft-graph-docs-contrib](https://github.com/microsoftgraph/microsoft-graph-docs-contrib)**<br/><sub><code>microsoftgraph/microsoft-graph-docs-contrib</code></sub> | **142** | 513 | Documentation for the Microsoft Graph REST API | 19m ago |
+| **15** | <img src="https://github.com/REIJI007.png?size=32" width="28" align="top"/> &nbsp;**[AdBlock_Rule_For_Sing-box](https://github.com/REIJI007/AdBlock_Rule_For_Sing-box)**<br/><sub><code>REIJI007/AdBlock_Rule_For_Sing-box</code></sub> | **142** | 20 | 适用于Sing-box的广告域名拦截RULE-SET规则集，每20分钟更新一次<br/> `adblock`  `route` | 23m ago |
 <!-- PARADISE:TODAY:END -->
 
 ---
 
 ## 📆 This Week's Top Repositories
 
-<img src="https://img.shields.io/badge/Window-This%20Week-5EA9FF?style=for-the-badge&logo=calendar&logoColor=white" alt="This Week"/>
+[![This Week](https://img.shields.io/badge/Window-This%20Week-5EA9FF?style=for-the-badge&logo=powershell&logoColor=white)](https://github.com/btstevens1984az/powershell-paradise#-this-weeks-top-repositories)
 
 > PowerShell repos **created in the last 7 days**, ranked by total stars.
 
@@ -141,7 +139,7 @@
 | # | Project | ⭐ Stars | 🍴 Forks | About | 🕐 Updated |
 |:-:|---------|----------:|----------:|-------|------------|
 | 🥇 | <img src="https://github.com/zunmax.png?size=32" width="28" align="top"/> &nbsp;**[ritual-agent-deployment](https://github.com/zunmax/ritual-agent-deployment)**<br/><sub><code>zunmax/ritual-agent-deployment</code></sub> | **71** | 49 | Deploy a recurring, self-funding sovereign AI agent on Ritual testnet with one command.<br/> `ai-agent`  `ritual-testnet` | 4d ago |
-| 🥈 | <img src="https://github.com/wzj998.png?size=32" width="28" align="top"/> &nbsp;**[fluencer-predict-track](https://github.com/wzj998/fluencer-predict-track)**<br/><sub><code>wzj998/fluencer-predict-track</code></sub> | **24** | 9 | 投资大V合订本：追踪投资大V历史预测，并用公开数据验证准确性<br/> `chrome-cdp`  `codex-skill` | 3d ago |
+| 🥈 | <img src="https://github.com/wzj998.png?size=32" width="28" align="top"/> &nbsp;**[fluencer-predict-track](https://github.com/wzj998/fluencer-predict-track)**<br/><sub><code>wzj998/fluencer-predict-track</code></sub> | **24** | 9 | 投资大V合订本：追踪投资大V历史预测，并用公开数据验证准确性<br/> `chrome-cdp`  `codex-skill` | 4d ago |
 | 🥉 | <img src="https://github.com/JacksonTai2007.png?size=32" width="28" align="top"/> &nbsp;**[cc-unlock](https://github.com/JacksonTai2007/cc-unlock)**<br/><sub><code>JacksonTai2007/cc-unlock</code></sub> | **16** | 0 | — | 2d ago |
 | **4** | <img src="https://github.com/mohamedlalah.png?size=32" width="28" align="top"/> &nbsp;**[SecretoBoot-Enterprise](https://github.com/mohamedlalah/SecretoBoot-Enterprise)**<br/><sub><code>mohamedlalah/SecretoBoot-Enterprise</code></sub> | **11** | 0 | Professional Dual Boot Manager for Windows 11 and Google TV powered by rEFInd.<br/> `bootloader`  `dualboot` | 5d ago |
 | **5** | <img src="https://github.com/Isralechee.png?size=32" width="28" align="top"/> &nbsp;**[SpicetifyManager](https://github.com/Isralechee/SpicetifyManager)**<br/><sub><code>Isralechee/SpicetifyManager</code></sub> | **9** | 0 | PowerShell menu-driven manager for Spicetify + Spotify — one-click auto apply, full res…<br/> `batch`  `cli` | 2d ago |
@@ -161,7 +159,7 @@
 
 ## 🗓️ This Month's Top Repositories
 
-<img src="https://img.shields.io/badge/Window-This%20Month-A78BFA?style=for-the-badge&logo=clockify&logoColor=white" alt="This Month"/>
+[![This Month](https://img.shields.io/badge/Window-This%20Month-A78BFA?style=for-the-badge&logo=powershell&logoColor=white)](https://github.com/btstevens1984az/powershell-paradise#%EF%B8%8F-this-months-top-repositories)
 
 > PowerShell repos **created in the last 30 days**, ranked by total stars.
 
@@ -189,7 +187,7 @@
 
 ## 📈 This Year's Top Repositories
 
-<img src="https://img.shields.io/badge/Window-This%20Year-00C9A7?style=for-the-badge&logo=trending-up&logoColor=white" alt="This Year"/>
+[![This Year](https://img.shields.io/badge/Window-This%20Year-00C9A7?style=for-the-badge&logo=powershell&logoColor=white)](https://github.com/btstevens1984az/powershell-paradise#-this-years-top-repositories)
 
 > PowerShell repos **created since January 1**, ranked by total stars.
 
@@ -272,7 +270,7 @@ MIT — see [LICENSE](LICENSE).
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api/capsule?text=Built%20with%20%E2%9D%A4%EF%B8%8F%20for%20PowerShell&fontColor=f0f6ff&color=012456&height=80&section=footer&type=bubble" alt="Footer"/>
+**Built with ❤️ for the PowerShell community**
 
 *Star this repo to get daily trending PowerShell projects in your GitHub feed.*
 

@@ -2,14 +2,12 @@
 
 <div align="center">
 
-<!-- Banner: external PNG (GitHub blocks repo SVGs in README) -->
-<img src="https://capsule-render.vercel.app/api/capsule?text=PowerShell%20Paradise&fontColor=f0f6ff&color=012456,1a4a8a,00c9a7&height=180&section=header&fontSize=52&type=waving" alt="PowerShell Paradise banner"/>
-
-<img src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=500&size=22&duration=3000&pause=1200&color=5EA9FF&center=true&vCenter=true&width=700&lines=Discover+%E2%80%A2+Learn+%E2%80%A2+Stay+Current;Your+daily+PowerShell+repository+newsfeed+%F0%9F%93%A1" alt="Discover · Learn · Stay Current"/>
+<!-- Banner: committed PNG (reliable on GitHub — no external CDN) -->
+<img src="assets/banner.png" alt="PowerShell Paradise — Discover · Learn · Stay Current" width="100%"/>
 
 <br/>
 
-[![Daily Update](https://github.com/btstevens1984az/powershell-paradise/actions/workflows/daily-update.yml/badge.svg)](https://github.com/btstevens1984az/powershell-paradise/actions/workflows/daily-update.yml)
+[![Daily Update](https://img.shields.io/github/actions/workflow/status/btstevens1984az/powershell-paradise/daily-update.yml?branch=main&style=for-the-badge&label=Daily%20Update)](https://github.com/btstevens1984az/powershell-paradise/actions/workflows/daily-update.yml)
 [![PowerShell](https://img.shields.io/badge/PowerShell-012456?style=for-the-badge&logo=powershell&logoColor=white)](https://learn.microsoft.com/powershell/)
 [![Auto Refresh](https://img.shields.io/badge/Tables-Auto--Updated-brightgreen?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/btstevens1984az/powershell-paradise/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
@@ -99,7 +97,7 @@
 
 ## 🔥 Today's Top Movers
 
-<img src="https://img.shields.io/badge/Window-Today-FF6B6B?style=for-the-badge&logo=fireship&logoColor=white" alt="Today"/>
+[![Today](https://img.shields.io/badge/Window-Today-FF6B6B?style=for-the-badge&logo=powershell&logoColor=white)](https://github.com/btstevens1984az/powershell-paradise#-todays-top-movers)
 
 > Repos with the biggest **star gains** since the last refresh. First run shows recently active repos instead.
 
@@ -111,7 +109,7 @@
 
 ## 📆 This Week's Top Repositories
 
-<img src="https://img.shields.io/badge/Window-This%20Week-5EA9FF?style=for-the-badge&logo=calendar&logoColor=white" alt="This Week"/>
+[![This Week](https://img.shields.io/badge/Window-This%20Week-5EA9FF?style=for-the-badge&logo=powershell&logoColor=white)](https://github.com/btstevens1984az/powershell-paradise#-this-weeks-top-repositories)
 
 > PowerShell repos **created in the last 7 days**, ranked by total stars.
 
@@ -123,7 +121,7 @@
 
 ## 🗓️ This Month's Top Repositories
 
-<img src="https://img.shields.io/badge/Window-This%20Month-A78BFA?style=for-the-badge&logo=clockify&logoColor=white" alt="This Month"/>
+[![This Month](https://img.shields.io/badge/Window-This%20Month-A78BFA?style=for-the-badge&logo=powershell&logoColor=white)](https://github.com/btstevens1984az/powershell-paradise#%EF%B8%8F-this-months-top-repositories)
 
 > PowerShell repos **created in the last 30 days**, ranked by total stars.
 
@@ -135,7 +133,7 @@
 
 ## 📈 This Year's Top Repositories
 
-<img src="https://img.shields.io/badge/Window-This%20Year-00C9A7?style=for-the-badge&logo=trending-up&logoColor=white" alt="This Year"/>
+[![This Year](https://img.shields.io/badge/Window-This%20Year-00C9A7?style=for-the-badge&logo=powershell&logoColor=white)](https://github.com/btstevens1984az/powershell-paradise#-this-years-top-repositories)
 
 > PowerShell repos **created since January 1**, ranked by total stars.
 
@@ -202,7 +200,7 @@ MIT — see [LICENSE](LICENSE).
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api/capsule?text=Built%20with%20%E2%9D%A4%EF%B8%8F%20for%20PowerShell&fontColor=f0f6ff&color=012456&height=80&section=footer&type=bubble" alt="Footer"/>
+**Built with ❤️ for the PowerShell community**
 
 *Star this repo to get daily trending PowerShell projects in your GitHub feed.*
 
