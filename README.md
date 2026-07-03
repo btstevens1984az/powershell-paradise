@@ -2,6 +2,8 @@
 
 <div align="center">
 
+<img src="assets/banner.svg" alt="PowerShell Paradise — Daily trending PowerShell repositories" width="100%"/>
+
 ### Your daily newsfeed for the PowerShell ecosystem
 
 [![Daily Update](https://github.com/btstevens1984az/powershell-paradise/actions/workflows/daily-update.yml/badge.svg)](https://github.com/btstevens1984az/powershell-paradise/actions/workflows/daily-update.yml)
