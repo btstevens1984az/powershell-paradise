@@ -20,15 +20,15 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup PowerShell
-        uses: PowerShell/actions/setup-powershell@v1
-        with:
-          pwsh-version: '7.4.6'
+      - name: Verify PowerShell
+        shell: pwsh
+        run: $PSVersionTable.PSVersion
 
       - name: Update README tables
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: pwsh -NoProfile -File ./scripts/Update-ParadiseFeed.ps1
+        shell: pwsh
+        run: ./scripts/Update-ParadiseFeed.ps1
 
       - name: Commit and push changes
         run: |
