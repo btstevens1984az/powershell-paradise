@@ -1,166 +1,216 @@
-# PowerShell Paradise
+<!-- Static README shell — ranking tables are injected by Update-ParadiseFeed.ps1 -->
 
 <div align="center">
 
-<img src="assets/banner.svg" alt="PowerShell Paradise — Daily trending PowerShell repositories" width="100%"/>
+<!-- Banner: external PNG (GitHub blocks repo SVGs in README) -->
+<img src="https://capsule-render.vercel.app/api/capsule?text=PowerShell%20Paradise&fontColor=f0f6ff&color=012456,1a4a8a,00c9a7&height=180&section=header&fontSize=52&type=waving" alt="PowerShell Paradise banner"/>
 
-### Your daily newsfeed for the PowerShell ecosystem
-
-[![Daily Update](https://github.com/btstevens1984az/powershell-paradise/actions/workflows/daily-update.yml/badge.svg)](https://github.com/btstevens1984az/powershell-paradise/actions/workflows/daily-update.yml)
-[![PowerShell](https://img.shields.io/badge/PowerShell-012456?style=for-the-badge&logo=powershell&logoColor=white)](https://learn.microsoft.com/powershell/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
-[![Maintained](https://img.shields.io/badge/Maintained-Daily-brightgreen?style=for-the-badge)](https://github.com/btstevens1984az/powershell-paradise/actions)
-
-**Discover · Learn · Stay Current**
-
-*Automatically curated rankings of the hottest PowerShell repositories on GitHub — refreshed every morning.*
+<img src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=500&size=22&duration=3000&pause=1200&color=5EA9FF&center=true&vCenter=true&width=700&lines=Discover+%E2%80%A2+Learn+%E2%80%A2+Stay+Current;Your+daily+PowerShell+repository+newsfeed+%F0%9F%93%A1" alt="Discover · Learn · Stay Current"/>
 
 <br/>
 
+[![Daily Update](https://github.com/btstevens1984az/powershell-paradise/actions/workflows/daily-update.yml/badge.svg)](https://github.com/btstevens1984az/powershell-paradise/actions/workflows/daily-update.yml)
+[![PowerShell](https://img.shields.io/badge/PowerShell-012456?style=for-the-badge&logo=powershell&logoColor=white)](https://learn.microsoft.com/powershell/)
+[![Auto Refresh](https://img.shields.io/badge/Tables-Auto--Updated-brightgreen?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/btstevens1984az/powershell-paradise/actions)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
+
+<br/><br/>
+
 <!-- PARADISE:STATS:START -->
-| 📅 Today | 📆 This Week | 🗓️ This Month | 📈 This Year |
-|:---:|:---:|:---:|:---:|
-| **15** trending | **15** new repos | **15** new repos | **15** new repos |
+<table align="center">
+<tr>
+<td align="center" width="25%">
+<br/>
+<h3>📅 Today</h3>
+<h2>15</h2>
+<sub>trending movers</sub>
+<br/><br/>
+</td>
+<td align="center" width="25%">
+<br/>
+<h3>📆 This Week</h3>
+<h2>15</h2>
+<sub>new repos</sub>
+<br/><br/>
+</td>
+<td align="center" width="25%">
+<br/>
+<h3>🗓️ This Month</h3>
+<h2>15</h2>
+<sub>new repos</sub>
+<br/><br/>
+</td>
+<td align="center" width="25%">
+<br/>
+<h3>📈 This Year</h3>
+<h2>15</h2>
+<sub>new repos</sub>
+<br/><br/>
+</td>
+</tr>
+</table>
 <!-- PARADISE:STATS:END -->
 
 <br/>
 
 <!-- PARADISE:META:START -->
-**Last updated:** Thursday, July 2, 2026 · 9:16 PM  
-**Data refresh:** 2026-07-03 01:16 UTC · **Tracked repos:** 100 · **Star history:** building baseline
+<img src="https://img.shields.io/badge/Last%20Updated-Thursday%2C%20July%202%2C%202026%20%C2%B7%209%3A27%20PM-012456?style=for-the-badge&logo=clock&logoColor=white" alt="Last updated"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Data%20Refresh-2026-07-03%2001%3A27%20UTC-5EA9FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="Data refresh"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Tracked%20Repos-100-00C9A7?style=for-the-badge&logo=github&logoColor=white" alt="Tracked repos"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Star%20History-active-brightgreen?style=for-the-badge&logo=star&logoColor=white" alt="Star history"/>
 <!-- PARADISE:META:END -->
 
 </div>
 
 ---
 
-## 📡 What is PowerShell Paradise?
+## 📡 Welcome to the Paradise
 
-PowerShell Paradise is a **living leaderboard** for the PowerShell community. Every day, an automated pipeline scans GitHub, ranks repositories by stars, and publishes fresh tables right here — no manual curation required.
+> **PowerShell Paradise** is your cozy corner of GitHub for staying current — a living leaderboard that refreshes every morning with the hottest PowerShell projects, modules, and tools the community is starring right now.
 
-Whether you're an admin shipping automation, a developer building modules, or a learner exploring the ecosystem, this repo is your **single bookmark** for what's trending in PowerShell.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-| Window | What you get |
-|--------|--------------|
-| **Today** | Repositories gaining the most stars since the last update — your real-time pulse |
-| **This Week** | New PowerShell repos from the last 7 days, ranked by stars |
-| **This Month** | Standout projects from the last 30 days |
-| **This Year** | The year's best new PowerShell repositories so far |
+### 🌊 What you'll find
 
----
+| Window | The vibe |
+|:------:|:---------|
+| 🔥 **Today** | Star velocity — what's climbing *right now* |
+| 📆 **Week** | Fresh repos from the last 7 days |
+| 🗓️ **Month** | Standouts from the last 30 days |
+| 📈 **Year** | The year's best new PowerShell repos |
 
-## 🗂️ Quick Navigation
+</td>
+<td width="50%" valign="top">
 
-| Section | Jump to |
-|---------|---------|
-| 🔥 Today's Top Movers | [Today's Rankings](#-todays-top-movers) |
-| 📆 This Week | [Weekly Rankings](#-this-weeks-top-repositories) |
-| 🗓️ This Month | [Monthly Rankings](#️-this-months-top-repositories) |
-| 📈 This Year | [Yearly Rankings](#-this-years-top-repositories) |
-| ⚙️ How It Works | [Methodology](#️-how-it-works) |
+### 🧭 Jump around
+
+| Go to | Section |
+|:-----:|:--------|
+| 🔥 | [Today's Top Movers](#-todays-top-movers) |
+| 📆 | [This Week](#-this-weeks-top-repositories) |
+| 🗓️ | [This Month](#️-this-months-top-repositories) |
+| 📈 | [This Year](#-this-years-top-repositories) |
+| ⚙️ | [How It Works](#️-how-it-works) |
+
+</td>
+</tr>
+</table>
 
 ---
 
 ## 🔥 Today's Top Movers
 
-> Repositories with the biggest **star gains** since the last refresh. On the first run, recently active repos are shown instead.
+<img src="https://img.shields.io/badge/Window-Today-FF6B6B?style=for-the-badge&logo=fireship&logoColor=white" alt="Today"/>
+
+> Repos with the biggest **star gains** since the last refresh. First run shows recently active repos instead.
 
 <!-- PARADISE:TODAY:START -->
-| # | Repository | ⭐ Stars | 🍴 Forks | Description | Last Push |
-|:-:|---|---:|---:|---|---|
-| 🥇 | [ScoopInstaller/Extras](https://github.com/ScoopInstaller/Extras) | 2.1k | 1.7k | 📦 The Extras bucket for Scoop. | 12m ago |
-| 🥈 | [ScoopInstaller/Main](https://github.com/ScoopInstaller/Main) | 1.9k | 1.2k | 📦 The default bucket for Scoop. | 13m ago |
-| 🥉 | [Scriptez1/RedXFreeSteamInstaller](https://github.com/Scriptez1/RedXFreeSteamInstaller) | 1.4k | 17 | It allows you to automatically add all free and paid games and DLCs t… | 11m ago |
-| **4** | [chawyehsu/dorado](https://github.com/chawyehsu/dorado) | 1.2k | 109 | 🐟 Yet Another bucket for lovely Scoop | 39m ago |
-| **5** | [ItzLevvie/MicrosoftTeams-msinternal](https://github.com/ItzLevvie/MicrosoftTeams-msinternal) | 539 | 34 | This project was created from PowerShell which allows people to downl… | 8m ago |
-| **6** | [MicrosoftDocs/power-platform](https://github.com/MicrosoftDocs/power-platform) | 503 | 689 | Documentation for Microsoft Power Platform | 13m ago |
-| **7** | [chocolatey-community/chocolatey-packages](https://github.com/chocolatey-community/chocolatey-packages) | 477 | 398 | Chocolatey Community Maintainers Team Packages - packages that are ma… | 40m ago |
-| **8** | [REIJI007/AdBlock_Rule_For_Clash](https://github.com/REIJI007/AdBlock_Rule_For_Clash) | 349 | 14 | 适用于Clash（premium核心与mihomo核心）的广告域名拦截RULE-SET规则集，每20分钟更新一次 | 1h ago |
-| **9** | [gaelcolas/Sampler](https://github.com/gaelcolas/Sampler) | 237 | 47 | Module template with build pipeline and examples, including DSC eleme… | 11m ago |
-| **10** | [microsoftgraph/microsoft-graph-docs-contrib](https://github.com/microsoftgraph/microsoft-graph-docs-contrib) | 142 | 513 | Documentation for the Microsoft Graph REST API | 35m ago |
-| **11** | [REIJI007/AdBlock_Rule_For_Sing-box](https://github.com/REIJI007/AdBlock_Rule_For_Sing-box) | 142 | 20 | 适用于Sing-box的广告域名拦截RULE-SET规则集，每20分钟更新一次 | 3m ago |
-| **12** | [bitbug0x55AA/Blue_Team_Hunting_Field_Notes](https://github.com/bitbug0x55AA/Blue_Team_Hunting_Field_Notes) | 101 | 19 | My external brain for cyber defense (WIP).  A practical collection of… | 3m ago |
-| **13** | [ItzLevvie/Office16](https://github.com/ItzLevvie/Office16) | 68 | 6 | This project was created from PowerShell which shows internal and ext… | 7m ago |
-| **14** | [SpecterShell/Dumplings](https://github.com/SpecterShell/Dumplings) | 49 | 30 | Dump remote resources and lint outdated packages | 56m ago |
-| **15** | [usepvm/pvm](https://github.com/usepvm/pvm) | 39 | 2 | PHP Version Manager for windows | 44m ago |
+| # | Project | ⭐ Stars | 🍴 Forks | About | 🕐 Updated |
+|:-:|---------|----------:|----------:|-------|------------|
+| 🥇 | <img src="https://github.com/ScoopInstaller.png?size=32" width="28" align="top"/> &nbsp;**[Extras](https://github.com/ScoopInstaller/Extras)**<br/><sub><code>ScoopInstaller/Extras</code></sub> | **2.1k** | 1.7k | 📦 The Extras bucket for Scoop.<br/> `hacktoberfest`  `scoop` | 23m ago |
+| 🥈 | <img src="https://github.com/ScoopInstaller.png?size=32" width="28" align="top"/> &nbsp;**[Main](https://github.com/ScoopInstaller/Main)**<br/><sub><code>ScoopInstaller/Main</code></sub> | **1.9k** | 1.2k | 📦 The default bucket for Scoop.<br/> `scoop`  `scoop-apps` | 24m ago |
+| 🥉 | <img src="https://github.com/Scriptez1.png?size=32" width="28" align="top"/> &nbsp;**[RedXFreeSteamInstaller](https://github.com/Scriptez1/RedXFreeSteamInstaller)**<br/><sub><code>Scriptez1/RedXFreeSteamInstaller</code></sub> | **1.4k** | 17 | It allows you to automatically add all free and paid games and DLCs to your Steam accou…<br/> `bedavasteam`  `dokuman-tv` | 8m ago |
+| **4** | <img src="https://github.com/chawyehsu.png?size=32" width="28" align="top"/> &nbsp;**[dorado](https://github.com/chawyehsu/dorado)**<br/><sub><code>chawyehsu/dorado</code></sub> | **1.2k** | 109 | 🐟 Yet Another bucket for lovely Scoop<br/> `blockchain`  `devtools` | 50m ago |
+| **5** | <img src="https://github.com/ItzLevvie.png?size=32" width="28" align="top"/> &nbsp;**[MicrosoftTeams-msinternal](https://github.com/ItzLevvie/MicrosoftTeams-msinternal)**<br/><sub><code>ItzLevvie/MicrosoftTeams-msinternal</code></sub> | **539** | 34 | This project was created from PowerShell which allows people to download the latest int…<br/> `edge`  `electron` | 19m ago |
+| **6** | <img src="https://github.com/MicrosoftDocs.png?size=32" width="28" align="top"/> &nbsp;**[power-platform](https://github.com/MicrosoftDocs/power-platform)**<br/><sub><code>MicrosoftDocs/power-platform</code></sub> | **503** | 689 | Documentation for Microsoft Power Platform | 23m ago |
+| **7** | <img src="https://github.com/chocolatey-community.png?size=32" width="28" align="top"/> &nbsp;**[chocolatey-packages](https://github.com/chocolatey-community/chocolatey-packages)**<br/><sub><code>chocolatey-community/chocolatey-packages</code></sub> | **477** | 398 | Chocolatey Community Maintainers Team Packages - packages that are managed and maintain…<br/> `hacktoberfest` | 50m ago |
+| **8** | <img src="https://github.com/REIJI007.png?size=32" width="28" align="top"/> &nbsp;**[AdBlock_Rule_For_Clash](https://github.com/REIJI007/AdBlock_Rule_For_Clash)**<br/><sub><code>REIJI007/AdBlock_Rule_For_Clash</code></sub> | **349** | 14 | 适用于Clash（premium核心与mihomo核心）的广告域名拦截RULE-SET规则集，每20分钟更新一次<br/> `adblock`  `clash` | 1h ago |
+| **9** | <img src="https://github.com/gaelcolas.png?size=32" width="28" align="top"/> &nbsp;**[Sampler](https://github.com/gaelcolas/Sampler)**<br/><sub><code>gaelcolas/Sampler</code></sub> | **237** | 47 | Module template with build pipeline and examples, including DSC elements.<br/> `automation`  `continuous-delivery` | 22m ago |
+| **10** | <img src="https://github.com/microsoftgraph.png?size=32" width="28" align="top"/> &nbsp;**[microsoft-graph-docs-contrib](https://github.com/microsoftgraph/microsoft-graph-docs-contrib)**<br/><sub><code>microsoftgraph/microsoft-graph-docs-contrib</code></sub> | **142** | 513 | Documentation for the Microsoft Graph REST API | 10m ago |
+| **11** | <img src="https://github.com/REIJI007.png?size=32" width="28" align="top"/> &nbsp;**[AdBlock_Rule_For_Sing-box](https://github.com/REIJI007/AdBlock_Rule_For_Sing-box)**<br/><sub><code>REIJI007/AdBlock_Rule_For_Sing-box</code></sub> | **142** | 20 | 适用于Sing-box的广告域名拦截RULE-SET规则集，每20分钟更新一次<br/> `adblock`  `route` | 14m ago |
+| **12** | <img src="https://github.com/bitbug0x55AA.png?size=32" width="28" align="top"/> &nbsp;**[Blue_Team_Hunting_Field_Notes](https://github.com/bitbug0x55AA/Blue_Team_Hunting_Field_Notes)**<br/><sub><code>bitbug0x55AA/Blue_Team_Hunting_Field_Notes</code></sub> | **101** | 19 | My external brain for cyber defense (WIP).  A practical collection of field notes on hu… | 14m ago |
+| **13** | <img src="https://github.com/ItzLevvie.png?size=32" width="28" align="top"/> &nbsp;**[Office16](https://github.com/ItzLevvie/Office16)**<br/><sub><code>ItzLevvie/Office16</code></sub> | **68** | 6 | This project was created from PowerShell which shows internal and external branches of …<br/> `microsoft`  `microsoft-office` | 18m ago |
+| **14** | <img src="https://github.com/Oniicyan.png?size=32" width="28" align="top"/> &nbsp;**[BT_BAN](https://github.com/Oniicyan/BT_BAN)**<br/><sub><code>Oniicyan/BT_BAN</code></sub> | **57** | 0 | — | 6m ago |
+| **15** | <img src="https://github.com/SpecterShell.png?size=32" width="28" align="top"/> &nbsp;**[Dumplings](https://github.com/SpecterShell/Dumplings)**<br/><sub><code>SpecterShell/Dumplings</code></sub> | **49** | 30 | Dump remote resources and lint outdated packages | 1h ago |
 <!-- PARADISE:TODAY:END -->
 
 ---
 
 ## 📆 This Week's Top Repositories
 
-> PowerShell repositories **created in the last 7 days**, sorted by total stars.
+<img src="https://img.shields.io/badge/Window-This%20Week-5EA9FF?style=for-the-badge&logo=calendar&logoColor=white" alt="This Week"/>
+
+> PowerShell repos **created in the last 7 days**, ranked by total stars.
 
 <!-- PARADISE:WEEK:START -->
-| # | Repository | ⭐ Stars | 🍴 Forks | Description | Last Push |
-|:-:|---|---:|---:|---|---|
-| 🥇 | [zunmax/ritual-agent-deployment](https://github.com/zunmax/ritual-agent-deployment) | 71 | 49 | Deploy a recurring, self-funding sovereign AI agent on Ritual testnet… | 4d ago |
-| 🥈 | [wzj998/fluencer-predict-track](https://github.com/wzj998/fluencer-predict-track) | 24 | 9 | 投资大V合订本：追踪投资大V历史预测，并用公开数据验证准确性 | 3d ago |
-| 🥉 | [JacksonTai2007/cc-unlock](https://github.com/JacksonTai2007/cc-unlock) | 16 | 0 | — | 2d ago |
-| **4** | [mohamedlalah/SecretoBoot-Enterprise](https://github.com/mohamedlalah/SecretoBoot-Enterprise) | 11 | 0 | Professional Dual Boot Manager for Windows 11 and Google TV powered b… | 5d ago |
-| **5** | [Isralechee/SpicetifyManager](https://github.com/Isralechee/SpicetifyManager) | 9 | 0 | PowerShell menu-driven manager for Spicetify + Spotify — one-click au… | 2d ago |
-| **6** | [xu0106/latex-paper-writer-skill](https://github.com/xu0106/latex-paper-writer-skill) | 9 | 1 | — | 6d ago |
-| **7** | [adlptv/Agent-AND](https://github.com/adlptv/Agent-AND) | 9 | 1 | — | 2d ago |
-| **8** | [Helias/ai-notify](https://github.com/Helias/ai-notify) | 8 | 0 | — | 5d ago |
-| **9** | [frangelbarrera/osint-agent-skills](https://github.com/frangelbarrera/osint-agent-skills) | 8 | 2 | OSINT knowledge base + MCP server for autonomous AI agents — Claude C… | 1d ago |
-| **10** | [steviecoaster/Splitter](https://github.com/steviecoaster/Splitter) | 7 | 2 | Split a Windows Operating System ISO into smaller, edition-specific I… | 1d ago |
-| **11** | [dfinke/PSDiaryAI](https://github.com/dfinke/PSDiaryAI) | 6 | 3 | Capture timestamped Markdown diary notes from PowerShell, then use AI… | 6d ago |
-| **12** | [qiaohuaruan/foxit-skills](https://github.com/qiaohuaruan/foxit-skills) | 6 | 0 | Model Context Protocol (MCP) framework for enterprise desktop skills. | 2d ago |
-| **13** | [derrickgong87/codex-lark-deliver](https://github.com/derrickgong87/codex-lark-deliver) | 6 | 1 | Codex Skill for Feishu/Lark completion notices and file-body delivery. | 3d ago |
-| **14** | [mathruffian-dot/opencode-draw-free](https://github.com/mathruffian-dot/opencode-draw-free) | 6 | 0 | 免費 AI 生圖技能 for OpenCode/Claude Code — 零 API Key、零 Python、零 GPU，只要 Win… | 5d ago |
-| **15** | [wepigcn/open-wepig-skills](https://github.com/wepigcn/open-wepig-skills) | 6 | 0 | wepig saas open skills | 3d ago |
+| # | Project | ⭐ Stars | 🍴 Forks | About | 🕐 Updated |
+|:-:|---------|----------:|----------:|-------|------------|
+| 🥇 | <img src="https://github.com/zunmax.png?size=32" width="28" align="top"/> &nbsp;**[ritual-agent-deployment](https://github.com/zunmax/ritual-agent-deployment)**<br/><sub><code>zunmax/ritual-agent-deployment</code></sub> | **71** | 49 | Deploy a recurring, self-funding sovereign AI agent on Ritual testnet with one command.<br/> `ai-agent`  `ritual-testnet` | 4d ago |
+| 🥈 | <img src="https://github.com/wzj998.png?size=32" width="28" align="top"/> &nbsp;**[fluencer-predict-track](https://github.com/wzj998/fluencer-predict-track)**<br/><sub><code>wzj998/fluencer-predict-track</code></sub> | **24** | 9 | 投资大V合订本：追踪投资大V历史预测，并用公开数据验证准确性<br/> `chrome-cdp`  `codex-skill` | 3d ago |
+| 🥉 | <img src="https://github.com/JacksonTai2007.png?size=32" width="28" align="top"/> &nbsp;**[cc-unlock](https://github.com/JacksonTai2007/cc-unlock)**<br/><sub><code>JacksonTai2007/cc-unlock</code></sub> | **16** | 0 | — | 2d ago |
+| **4** | <img src="https://github.com/mohamedlalah.png?size=32" width="28" align="top"/> &nbsp;**[SecretoBoot-Enterprise](https://github.com/mohamedlalah/SecretoBoot-Enterprise)**<br/><sub><code>mohamedlalah/SecretoBoot-Enterprise</code></sub> | **11** | 0 | Professional Dual Boot Manager for Windows 11 and Google TV powered by rEFInd.<br/> `bootloader`  `dualboot` | 5d ago |
+| **5** | <img src="https://github.com/Isralechee.png?size=32" width="28" align="top"/> &nbsp;**[SpicetifyManager](https://github.com/Isralechee/SpicetifyManager)**<br/><sub><code>Isralechee/SpicetifyManager</code></sub> | **9** | 0 | PowerShell menu-driven manager for Spicetify + Spotify — one-click auto apply, full res…<br/> `batch`  `cli` | 2d ago |
+| **6** | <img src="https://github.com/xu0106.png?size=32" width="28" align="top"/> &nbsp;**[latex-paper-writer-skill](https://github.com/xu0106/latex-paper-writer-skill)**<br/><sub><code>xu0106/latex-paper-writer-skill</code></sub> | **9** | 1 | — | 6d ago |
+| **7** | <img src="https://github.com/adlptv.png?size=32" width="28" align="top"/> &nbsp;**[Agent-AND](https://github.com/adlptv/Agent-AND)**<br/><sub><code>adlptv/Agent-AND</code></sub> | **9** | 1 | — | 2d ago |
+| **8** | <img src="https://github.com/Helias.png?size=32" width="28" align="top"/> &nbsp;**[ai-notify](https://github.com/Helias/ai-notify)**<br/><sub><code>Helias/ai-notify</code></sub> | **8** | 0 | — | 5d ago |
+| **9** | <img src="https://github.com/frangelbarrera.png?size=32" width="28" align="top"/> &nbsp;**[osint-agent-skills](https://github.com/frangelbarrera/osint-agent-skills)**<br/><sub><code>frangelbarrera/osint-agent-skills</code></sub> | **8** | 2 | OSINT knowledge base + MCP server for autonomous AI agents — Claude Code, Cursor, recon…<br/> `ai-agent`  `autonomous-agents` | 1d ago |
+| **10** | <img src="https://github.com/steviecoaster.png?size=32" width="28" align="top"/> &nbsp;**[Splitter](https://github.com/steviecoaster/Splitter)**<br/><sub><code>steviecoaster/Splitter</code></sub> | **7** | 2 | Split a Windows Operating System ISO into smaller, edition-specific ISO files. | 1d ago |
+| **11** | <img src="https://github.com/dfinke.png?size=32" width="28" align="top"/> &nbsp;**[PSDiaryAI](https://github.com/dfinke/PSDiaryAI)**<br/><sub><code>dfinke/PSDiaryAI</code></sub> | **6** | 3 | Capture timestamped Markdown diary notes from PowerShell, then use AI to connect, searc…<br/> `ai`  `diary` | 6d ago |
+| **12** | <img src="https://github.com/qiaohuaruan.png?size=32" width="28" align="top"/> &nbsp;**[foxit-skills](https://github.com/qiaohuaruan/foxit-skills)**<br/><sub><code>qiaohuaruan/foxit-skills</code></sub> | **6** | 0 | Model Context Protocol (MCP) framework for enterprise desktop skills. | 2d ago |
+| **13** | <img src="https://github.com/derrickgong87.png?size=32" width="28" align="top"/> &nbsp;**[codex-lark-deliver](https://github.com/derrickgong87/codex-lark-deliver)**<br/><sub><code>derrickgong87/codex-lark-deliver</code></sub> | **6** | 1 | Codex Skill for Feishu/Lark completion notices and file-body delivery. | 3d ago |
+| **14** | <img src="https://github.com/mathruffian-dot.png?size=32" width="28" align="top"/> &nbsp;**[opencode-draw-free](https://github.com/mathruffian-dot/opencode-draw-free)**<br/><sub><code>mathruffian-dot/opencode-draw-free</code></sub> | **6** | 0 | 免費 AI 生圖技能 for OpenCode/Claude Code — 零 API Key、零 Python、零 GPU，只要 Windows PowerShell + … | 5d ago |
+| **15** | <img src="https://github.com/wepigcn.png?size=32" width="28" align="top"/> &nbsp;**[open-wepig-skills](https://github.com/wepigcn/open-wepig-skills)**<br/><sub><code>wepigcn/open-wepig-skills</code></sub> | **6** | 0 | wepig saas open skills | 3d ago |
 <!-- PARADISE:WEEK:END -->
 
 ---
 
 ## 🗓️ This Month's Top Repositories
 
-> PowerShell repositories **created in the last 30 days**, sorted by total stars.
+<img src="https://img.shields.io/badge/Window-This%20Month-A78BFA?style=for-the-badge&logo=clockify&logoColor=white" alt="This Month"/>
+
+> PowerShell repos **created in the last 30 days**, ranked by total stars.
 
 <!-- PARADISE:MONTH:START -->
-| # | Repository | ⭐ Stars | 🍴 Forks | Description | Last Push |
-|:-:|---|---:|---:|---|---|
-| 🥇 | [CWS6206/EasySSDTester](https://github.com/CWS6206/EasySSDTester) | 142 | 36 | Easy SSD Tester - Portable Windows 11 utility for checking SSD health… | 13d ago |
-| 🥈 | [TigerBruce/lceda-operation-notes](https://github.com/TigerBruce/lceda-operation-notes) | 128 | 20 | — | 26d ago |
-| 🥉 | [SantanderAI/ralph](https://github.com/SantanderAI/ralph) | 81 | 23 | A configurable Bash/PowerShell loop that runs an AI coding CLI with a… | 2d ago |
-| **4** | [zunmax/ritual-agent-deployment](https://github.com/zunmax/ritual-agent-deployment) | 71 | 49 | Deploy a recurring, self-funding sovereign AI agent on Ritual testnet… | 4d ago |
-| **5** | [CZJ0219/ios27-beta-indexing-progress-windows](https://github.com/CZJ0219/ios27-beta-indexing-progress-windows) | 63 | 3 | iOS 27 Beta Indexing Progress Percentage Checker for Windows | 6d ago |
-| **6** | [xqnode/claude-code-desktop-offline](https://github.com/xqnode/claude-code-desktop-offline) | 59 | 0 | Claude Code 桌面版离线安装包 | 28d ago |
-| **7** | [MADEVAL/HumanAI](https://github.com/MADEVAL/HumanAI) | 53 | 18 | AI skill for rewriting machine-generated text to sound human-written … | 2d ago |
-| **8** | [xdoofy92/BraveControl](https://github.com/xdoofy92/BraveControl) | 45 | 0 | BraveControl desactiva funciones innecesarias de Brave para ofrecer u… | 16d ago |
-| **9** | [zaxardery8011-design/soplint](https://github.com/zaxardery8011-design/soplint) | 43 | 11 | — | 22d ago |
-| **10** | [ypyik0669/ctf-codex](https://github.com/ypyik0669/ctf-codex) | 43 | 15 | 面向 Codex 的社区安全审计 Skill：用于授权 CTF、上线前安全检查、项目加固和 AI 安全报告整理 | 19d ago |
-| **11** | [sbousseaden/EDRUnChoker](https://github.com/sbousseaden/EDRUnChoker) | 42 | 3 | EDRUnChoker - fileless WMI defense that removes EDRChoker QoS throttl… | 24d ago |
-| **12** | [VanillaNahida/Terminal-GIF-Player](https://github.com/VanillaNahida/Terminal-GIF-Player) | 41 | 3 | Play GIF animations in Windows terminal, with background music, lyric… | 25d ago |
-| **13** | [zwj276765037-lab/Visio-copy](https://github.com/zwj276765037-lab/Visio-copy) | 37 | 5 | — | 18d ago |
-| **14** | [Gyratingice-blip/codex-windows-bundled-plugin-repair](https://github.com/Gyratingice-blip/codex-windows-bundled-plugin-repair) | 36 | 2 | Repair Codex Desktop bundled Chrome and Computer Use plugins on Windows. | 12d ago |
-| **15** | [navi118/codex-desktop-doctor-skill](https://github.com/navi118/codex-desktop-doctor-skill) | 36 | 0 | Codex Skill for diagnosing Chrome and Computer Use failures in Codex … | 3d ago |
+| # | Project | ⭐ Stars | 🍴 Forks | About | 🕐 Updated |
+|:-:|---------|----------:|----------:|-------|------------|
+| 🥇 | <img src="https://github.com/CWS6206.png?size=32" width="28" align="top"/> &nbsp;**[EasySSDTester](https://github.com/CWS6206/EasySSDTester)**<br/><sub><code>CWS6206/EasySSDTester</code></sub> | **142** | 36 | Easy SSD Tester - Portable Windows 11 utility for checking SSD health, SMART data and s… | 13d ago |
+| 🥈 | <img src="https://github.com/TigerBruce.png?size=32" width="28" align="top"/> &nbsp;**[lceda-operation-notes](https://github.com/TigerBruce/lceda-operation-notes)**<br/><sub><code>TigerBruce/lceda-operation-notes</code></sub> | **128** | 20 | — | 26d ago |
+| 🥉 | <img src="https://github.com/SantanderAI.png?size=32" width="28" align="top"/> &nbsp;**[ralph](https://github.com/SantanderAI/ralph)**<br/><sub><code>SantanderAI/ralph</code></sub> | **81** | 23 | A configurable Bash/PowerShell loop that runs an AI coding CLI with a fresh session eac…<br/> `agent`  `agentic` | 2d ago |
+| **4** | <img src="https://github.com/zunmax.png?size=32" width="28" align="top"/> &nbsp;**[ritual-agent-deployment](https://github.com/zunmax/ritual-agent-deployment)**<br/><sub><code>zunmax/ritual-agent-deployment</code></sub> | **71** | 49 | Deploy a recurring, self-funding sovereign AI agent on Ritual testnet with one command.<br/> `ai-agent`  `ritual-testnet` | 4d ago |
+| **5** | <img src="https://github.com/CZJ0219.png?size=32" width="28" align="top"/> &nbsp;**[ios27-beta-indexing-progress-windows](https://github.com/CZJ0219/ios27-beta-indexing-progress-windows)**<br/><sub><code>CZJ0219/ios27-beta-indexing-progress-windows</code></sub> | **63** | 3 | iOS 27 Beta Indexing Progress Percentage Checker for Windows | 6d ago |
+| **6** | <img src="https://github.com/xqnode.png?size=32" width="28" align="top"/> &nbsp;**[claude-code-desktop-offline](https://github.com/xqnode/claude-code-desktop-offline)**<br/><sub><code>xqnode/claude-code-desktop-offline</code></sub> | **59** | 0 | Claude Code 桌面版离线安装包 | 28d ago |
+| **7** | <img src="https://github.com/MADEVAL.png?size=32" width="28" align="top"/> &nbsp;**[HumanAI](https://github.com/MADEVAL/HumanAI)**<br/><sub><code>MADEVAL/HumanAI</code></sub> | **53** | 18 | AI skill for rewriting machine-generated text to sound human-written across 9 languages…<br/> `ai`  `anti-ai` | 2d ago |
+| **8** | <img src="https://github.com/xdoofy92.png?size=32" width="28" align="top"/> &nbsp;**[BraveControl](https://github.com/xdoofy92/BraveControl)**<br/><sub><code>xdoofy92/BraveControl</code></sub> | **45** | 0 | BraveControl desactiva funciones innecesarias de Brave para ofrecer una experiencia lig… | 16d ago |
+| **9** | <img src="https://github.com/zaxardery8011-design.png?size=32" width="28" align="top"/> &nbsp;**[soplint](https://github.com/zaxardery8011-design/soplint)**<br/><sub><code>zaxardery8011-design/soplint</code></sub> | **43** | 11 | —<br/> `agent-reliability`  `ai-agents` | 22d ago |
+| **10** | <img src="https://github.com/ypyik0669.png?size=32" width="28" align="top"/> &nbsp;**[ctf-codex](https://github.com/ypyik0669/ctf-codex)**<br/><sub><code>ypyik0669/ctf-codex</code></sub> | **43** | 15 | 面向 Codex 的社区安全审计 Skill：用于授权 CTF、上线前安全检查、项目加固和 AI 安全报告整理 | 19d ago |
+| **11** | <img src="https://github.com/sbousseaden.png?size=32" width="28" align="top"/> &nbsp;**[EDRUnChoker](https://github.com/sbousseaden/EDRUnChoker)**<br/><sub><code>sbousseaden/EDRUnChoker</code></sub> | **42** | 3 | EDRUnChoker - fileless WMI defense that removes EDRChoker QoS throttling policies | 24d ago |
+| **12** | <img src="https://github.com/VanillaNahida.png?size=32" width="28" align="top"/> &nbsp;**[Terminal-GIF-Player](https://github.com/VanillaNahida/Terminal-GIF-Player)**<br/><sub><code>VanillaNahida/Terminal-GIF-Player</code></sub> | **41** | 3 | Play GIF animations in Windows terminal, with background music, lyric synchronization, …<br/> `animation`  `powershell` | 25d ago |
+| **13** | <img src="https://github.com/zwj276765037-lab.png?size=32" width="28" align="top"/> &nbsp;**[Visio-copy](https://github.com/zwj276765037-lab/Visio-copy)**<br/><sub><code>zwj276765037-lab/Visio-copy</code></sub> | **37** | 5 | — | 18d ago |
+| **14** | <img src="https://github.com/Gyratingice-blip.png?size=32" width="28" align="top"/> &nbsp;**[codex-windows-bundled-plugin-repair](https://github.com/Gyratingice-blip/codex-windows-bundled-plugin-repair)**<br/><sub><code>Gyratingice-blip/codex-windows-bundled-plugin-repair</code></sub> | **36** | 2 | Repair Codex Desktop bundled Chrome and Computer Use plugins on Windows. | 12d ago |
+| **15** | <img src="https://github.com/navi118.png?size=32" width="28" align="top"/> &nbsp;**[codex-desktop-doctor-skill](https://github.com/navi118/codex-desktop-doctor-skill)**<br/><sub><code>navi118/codex-desktop-doctor-skill</code></sub> | **36** | 0 | Codex Skill for diagnosing Chrome and Computer Use failures in Codex Desktop on Windows. | 3d ago |
 <!-- PARADISE:MONTH:END -->
 
 ---
 
 ## 📈 This Year's Top Repositories
 
-> PowerShell repositories **created since January 1**, sorted by total stars.
+<img src="https://img.shields.io/badge/Window-This%20Year-00C9A7?style=for-the-badge&logo=trending-up&logoColor=white" alt="This Year"/>
+
+> PowerShell repos **created since January 1**, ranked by total stars.
 
 <!-- PARADISE:YEAR:START -->
-| # | Repository | ⭐ Stars | 🍴 Forks | Description | Last Push |
-|:-:|---|---:|---:|---|---|
-| 🥇 | [zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill) | 7.2k | 1.1k | Reverse Engineering / Authorized Penetration Testing / Security Resea… | 4d ago |
-| 🥈 | [javaht/claude-desktop-zh-cn](https://github.com/javaht/claude-desktop-zh-cn) | 4.4k | 223 | Claude Desktop Chinese Patch (macOS & Windows) | 13h ago |
-| 🥉 | [freestylefly/CodexGuide](https://github.com/freestylefly/CodexGuide) | 2.4k | 239 | CodexGuide：面向全球初学者、创作者、开发者与团队的 Codex 实践指南 | 14h ago |
-| **4** | [microsoft/WindowsDeveloperConfig](https://github.com/microsoft/WindowsDeveloperConfig) | 1.7k | 131 | Automate the setup and configuration of your Windows development envi… | 13d ago |
-| **5** | [floatboatai/selfware.md](https://github.com/floatboatai/selfware.md) | 1.1k | 95 | — | 117d ago |
-| **6** | [microsoft/work-iq](https://github.com/microsoft/work-iq) | 921 | 102 | MCP Server and CLI for accessing Work IQ | 2d ago |
-| **7** | [toonight/get-shit-done-for-antigravity](https://github.com/toonight/get-shit-done-for-antigravity) | 896 | 140 | — | 92d ago |
-| **8** | [GuDaStudio/commands](https://github.com/GuDaStudio/commands) | 883 | 50 | — | 147d ago |
-| **9** | [chen0416ccc-cpu/codex-windows-fast-patch-skill](https://github.com/chen0416ccc-cpu/codex-windows-fast-patch-skill) | 850 | 87 | 此skills用于指导智能体在 Windows 上恢复 Codex Desktop 升级后失效的本地补丁和能力开关。（Computer U… | 9h ago |
-| **10** | [B3hnamR/PsiphonOverMITM](https://github.com/B3hnamR/PsiphonOverMITM) | 548 | 79 | — | 50d ago |
-| **11** | [dazzyddos/PrivHound](https://github.com/dazzyddos/PrivHound) | 503 | 47 | A BloodHound OpenGraph collector that models Windows local privilege … | 67d ago |
-| **12** | [minhnv0807/ai-business-skills](https://github.com/minhnv0807/ai-business-skills) | 483 | 206 | 63 bilingual AI marketing skills (31 VN + 31 Global) for Claude Code,… | 13d ago |
-| **13** | [PrismML-Eng/Bonsai-Image-Demo](https://github.com/PrismML-Eng/Bonsai-Image-Demo) | 464 | 63 | Generate images locally | 19d ago |
-| **14** | [Cotton059/Light-Help](https://github.com/Cotton059/Light-Help) | 453 | 209 | Help the audience perform some complex operations. | 13d ago |
-| **15** | [constansino/WinUtil_CN](https://github.com/constansino/WinUtil_CN) | 447 | 56 | WinUtil_CN：Chris Titus Tech WinUtil 中文汉化版，提供 WinUtil 中文界面、中文说明、Tweaks… | 49d ago |
+| # | Project | ⭐ Stars | 🍴 Forks | About | 🕐 Updated |
+|:-:|---------|----------:|----------:|-------|------------|
+| 🥇 | <img src="https://github.com/zhaoxuya520.png?size=32" width="28" align="top"/> &nbsp;**[reverse-skill](https://github.com/zhaoxuya520/reverse-skill)**<br/><sub><code>zhaoxuya520/reverse-skill</code></sub> | **7.2k** | 1.1k | Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router P… | 4d ago |
+| 🥈 | <img src="https://github.com/javaht.png?size=32" width="28" align="top"/> &nbsp;**[claude-desktop-zh-cn](https://github.com/javaht/claude-desktop-zh-cn)**<br/><sub><code>javaht/claude-desktop-zh-cn</code></sub> | **4.4k** | 223 | Claude Desktop Chinese Patch (macOS & Windows) | 13h ago |
+| 🥉 | <img src="https://github.com/freestylefly.png?size=32" width="28" align="top"/> &nbsp;**[CodexGuide](https://github.com/freestylefly/CodexGuide)**<br/><sub><code>freestylefly/CodexGuide</code></sub> | **2.4k** | 239 | CodexGuide：面向全球初学者、创作者、开发者与团队的 Codex 实践指南 | 14h ago |
+| **4** | <img src="https://github.com/microsoft.png?size=32" width="28" align="top"/> &nbsp;**[WindowsDeveloperConfig](https://github.com/microsoft/WindowsDeveloperConfig)**<br/><sub><code>microsoft/WindowsDeveloperConfig</code></sub> | **1.7k** | 131 | Automate the setup and configuration of your Windows development environment. | 13d ago |
+| **5** | <img src="https://github.com/floatboatai.png?size=32" width="28" align="top"/> &nbsp;**[selfware.md](https://github.com/floatboatai/selfware.md)**<br/><sub><code>floatboatai/selfware.md</code></sub> | **1.1k** | 95 | — | 117d ago |
+| **6** | <img src="https://github.com/microsoft.png?size=32" width="28" align="top"/> &nbsp;**[work-iq](https://github.com/microsoft/work-iq)**<br/><sub><code>microsoft/work-iq</code></sub> | **921** | 102 | MCP Server and CLI for accessing Work IQ | 2d ago |
+| **7** | <img src="https://github.com/toonight.png?size=32" width="28" align="top"/> &nbsp;**[get-shit-done-for-antigravity](https://github.com/toonight/get-shit-done-for-antigravity)**<br/><sub><code>toonight/get-shit-done-for-antigravity</code></sub> | **896** | 140 | — | 92d ago |
+| **8** | <img src="https://github.com/GuDaStudio.png?size=32" width="28" align="top"/> &nbsp;**[commands](https://github.com/GuDaStudio/commands)**<br/><sub><code>GuDaStudio/commands</code></sub> | **883** | 50 | — | 147d ago |
+| **9** | <img src="https://github.com/chen0416ccc-cpu.png?size=32" width="28" align="top"/> &nbsp;**[codex-windows-fast-patch-skill](https://github.com/chen0416ccc-cpu/codex-windows-fast-patch-skill)**<br/><sub><code>chen0416ccc-cpu/codex-windows-fast-patch-skill</code></sub> | **850** | 87 | 此skills用于指导智能体在 Windows 上恢复 Codex Desktop 升级后失效的本地补丁和能力开关。（Computer Use，插件，破限，codex强制汉化… | 9h ago |
+| **10** | <img src="https://github.com/B3hnamR.png?size=32" width="28" align="top"/> &nbsp;**[PsiphonOverMITM](https://github.com/B3hnamR/PsiphonOverMITM)**<br/><sub><code>B3hnamR/PsiphonOverMITM</code></sub> | **548** | 79 | — | 50d ago |
+| **11** | <img src="https://github.com/dazzyddos.png?size=32" width="28" align="top"/> &nbsp;**[PrivHound](https://github.com/dazzyddos/PrivHound)**<br/><sub><code>dazzyddos/PrivHound</code></sub> | **503** | 47 | A BloodHound OpenGraph collector that models Windows local privilege escalation as inte… | 67d ago |
+| **12** | <img src="https://github.com/minhnv0807.png?size=32" width="28" align="top"/> &nbsp;**[ai-business-skills](https://github.com/minhnv0807/ai-business-skills)**<br/><sub><code>minhnv0807/ai-business-skills</code></sub> | **483** | 206 | 63 bilingual AI marketing skills (31 VN + 31 Global) for Claude Code, OpenCode, Codex, …<br/> `agent-skills`  `ai-agents` | 13d ago |
+| **13** | <img src="https://github.com/PrismML-Eng.png?size=32" width="28" align="top"/> &nbsp;**[Bonsai-Image-Demo](https://github.com/PrismML-Eng/Bonsai-Image-Demo)**<br/><sub><code>PrismML-Eng/Bonsai-Image-Demo</code></sub> | **464** | 63 | Generate images locally<br/> `1-bit`  `bonsai` | 19d ago |
+| **14** | <img src="https://github.com/Cotton059.png?size=32" width="28" align="top"/> &nbsp;**[Light-Help](https://github.com/Cotton059/Light-Help)**<br/><sub><code>Cotton059/Light-Help</code></sub> | **453** | 209 | Help the audience perform some complex operations. | 13d ago |
+| **15** | <img src="https://github.com/constansino.png?size=32" width="28" align="top"/> &nbsp;**[WinUtil_CN](https://github.com/constansino/WinUtil_CN)**<br/><sub><code>constansino/WinUtil_CN</code></sub> | **447** | 56 | WinUtil_CN：Chris Titus Tech WinUtil 中文汉化版，提供 WinUtil 中文界面、中文说明、Tweaks 中文解释与 Win11ISO 中文支持<br/> `chinese`  `chris-titus-tech` | 49d ago |
 <!-- PARADISE:YEAR:END -->
 
 ---
@@ -169,41 +219,48 @@ Whether you're an admin shipping automation, a developer building modules, or a 
 
 ```mermaid
 flowchart LR
-    A[GitHub Search API] --> B[Update-ParadiseFeed.ps1]
-    B --> C[data/history.json]
-    B --> D[README.md tables]
-    E[Daily GitHub Action] --> B
-    E -->|06:00 UTC| B
+    A["🌐 GitHub API"] --> B["⚡ Update Script"]
+    B --> C["📊 history.json"]
+    B --> D["📝 README"]
+    E["⏰ Daily Action"] --> B
 ```
 
-1. **Fetch** — Query the GitHub Search API for `language:powershell` repositories with meaningful activity.
-2. **Track** — Compare star counts against `data/history.json` to surface today's fastest risers.
-3. **Rank** — Build four time-window tables sorted by stars (plus star delta for Today).
-4. **Publish** — Commit updated tables back to this README automatically.
+| Step | What happens |
+|:----:|:-------------|
+| 1️⃣ | Query GitHub for `language:powershell` repos with real activity |
+| 2️⃣ | Compare star counts to yesterday's snapshot for velocity |
+| 3️⃣ | Build four bubbly ranking tables — top 15 each |
+| 4️⃣ | Auto-commit back to this README every morning at 06:00 UTC |
 
-### Run locally
+<details>
+<summary><b>🛠️ Run locally</b></summary>
 
 ```powershell
-# From the repository root
-$env:GITHUB_TOKEN = 'ghp_your_token'   # optional — raises API rate limits
+$env:GITHUB_TOKEN = 'ghp_your_token'   # optional — higher API limits
 ./scripts/Update-ParadiseFeed.ps1
 ```
 
-### Filters applied
+</details>
 
-- Language: **PowerShell**
-- Forks excluded
-- Minimum **3 stars** (reduces noise)
-- Top **15** repositories per table
+<details>
+<summary><b>🔍 Filters applied</b></summary>
+
+- Language: **PowerShell** · Forks excluded · Minimum **3 stars** · Top **15** per table
+
+</details>
 
 ---
 
 ## 🌟 Why star this repo?
 
-- **Zero effort** — Tables update while you sleep
-- **Community signal** — See what PowerShell builders are paying attention to
-- **Learning radar** — Find modules, tools, and patterns worth studying
-- **Open source** — Fully transparent automation you can fork and adapt
+<table>
+<tr>
+<td align="center">😴<br/><b>Zero effort</b><br/><sub>Updates while you sleep</sub></td>
+<td align="center">📡<br/><b>Community signal</b><br/><sub>See what builders love</sub></td>
+<td align="center">🎓<br/><b>Learning radar</b><br/><sub>Find modules worth studying</sub></td>
+<td align="center">🔓<br/><b>Open source</b><br/><sub>Fork &amp; adapt freely</sub></td>
+</tr>
+</table>
 
 ---
 
@@ -215,7 +272,7 @@ MIT — see [LICENSE](LICENSE).
 
 <div align="center">
 
-**Built with ❤️ for the PowerShell community**
+<img src="https://capsule-render.vercel.app/api/capsule?text=Built%20with%20%E2%9D%A4%EF%B8%8F%20for%20PowerShell&fontColor=f0f6ff&color=012456&height=80&section=footer&type=bubble" alt="Footer"/>
 
 *Star this repo to get daily trending PowerShell projects in your GitHub feed.*
 

@@ -59,6 +59,7 @@ function Invoke-GitHubSearch {
                 FullName    = $item.full_name
                 Name        = $item.name
                 Owner       = $item.owner.login
+                AvatarUrl   = $item.owner.avatar_url
                 Stars       = [int]$item.stargazers_count
                 Forks       = [int]$item.forks_count
                 Description = if ($item.description) { ($item.description -replace '\|', '/').Trim() } else { '—' }
@@ -103,6 +104,19 @@ function Get-RankBadge {
     }
 }
 
+function Format-ShieldLabel {
+    param([string]$Text)
+    [uri]::EscapeDataString($Text)
+}
+
+function Get-TopicBadges {
+    param([string[]]$Topics)
+    if (-not $Topics -or $Topics.Count -eq 0) { return '' }
+    $shown = $Topics | Select-Object -First 2
+    $tags = ($shown | ForEach-Object { " ``$_``" }) -join ' '
+    return "<br/>$tags"
+}
+
 function ConvertTo-RepoTable {
     param(
         [Parameter(Mandatory)]
@@ -111,21 +125,32 @@ function ConvertTo-RepoTable {
     )
 
     if (-not $Repos -or $Repos.Count -eq 0) {
-        return '| — | *No repositories matched this window yet. Check back after the next update.* | — | — | — | — |'
+        return @(
+            '| # | Project | ⭐ Stars | 🍴 Forks | About | 🕐 Updated |'
+            '|:-:|---------|----------:|----------:|-------|------------|'
+            '| — | *No repositories matched this window yet. Check back after the next update.* | — | — | — | — |'
+        ) -join "`n"
     }
 
-    $lines = @('| # | Repository | ⭐ Stars | 🍴 Forks | Description | Last Push |')
-    $lines += '|:-:|---|---:|---:|---|---|'
+    $lines = @(
+        '| # | Project | ⭐ Stars | 🍴 Forks | About | 🕐 Updated |'
+        '|:-:|---------|----------:|----------:|-------|------------|'
+    )
 
     $rank = 1
     foreach ($repo in $Repos) {
         $badge = Get-RankBadge -Rank $rank
-        $desc = if ($repo.Description.Length -gt 72) { $repo.Description.Substring(0, 69) + '…' } else { $repo.Description }
-        $stars = Format-StarCount -Count $repo.Stars
+        $avatar = "https://github.com/$($repo.Owner).png?size=32"
+        $desc = if ($repo.Description.Length -gt 90) { $repo.Description.Substring(0, 87) + '…' } else { $repo.Description }
+        $desc = ($desc -replace '<', '&lt;' -replace '>', '&gt;')
+        $stars = "**$(Format-StarCount -Count $repo.Stars)**"
         if ($ShowDelta -and $repo.StarDelta -gt 0) {
-            $stars = "$stars (**+$($repo.StarDelta)**)"
+            $stars = "$stars &nbsp; 🚀 **+$($repo.StarDelta)**"
         }
-        $lines += "| $badge | [$($repo.FullName)]($($repo.Url)) | $stars | $(Format-StarCount -Count $repo.Forks) | $desc | $(Format-RelativeTime -When $repo.PushedAt) |"
+        $topics = Get-TopicBadges -Topics $repo.Topics
+        $project = "<img src=`"$avatar`" width=`"28`" align=`"top`"/> &nbsp;**[$($repo.Name)]($($repo.Url))**<br/><sub><code>$($repo.FullName)</code></sub>"
+        $about = "$desc$topics"
+        $lines += "| $badge | $project | $stars | $(Format-StarCount -Count $repo.Forks) | $about | $(Format-RelativeTime -When $repo.PushedAt) |"
         $rank++
     }
 
@@ -220,24 +245,42 @@ $todayMovers = @(
             [PSCustomObject]@{
                 FullName    = $repo.FullName
                 Name        = $repo.Name
+                Owner       = $repo.Owner
                 Stars       = $repo.Stars
                 Forks       = $repo.Forks
                 Description = $repo.Description
                 Url         = $repo.Url
                 PushedAt    = $repo.PushedAt
+                Topics      = $repo.Topics
                 StarDelta   = $delta
             }
         }
     }
 ) | Sort-Object StarDelta, Stars -Descending | Select-Object -First $TableSize
 
-# Fallback for first run: recently pushed repos with highest stars
+$todayMovers = @($todayMovers)
+
+$showDelta = $false
+if ($todayMovers -and $todayMovers.Count -gt 0) {
+    $showDelta = $true
+}
+
+# Fill table when few star deltas exist
+if ($todayMovers.Count -lt $TableSize) {
+    $existing = @($todayMovers | ForEach-Object { $_.FullName })
+    $supplement = Invoke-GitHubSearch -Query "$baseFilter pushed:>=$today" -PerPage ($TableSize * 2) |
+        Where-Object { $existing -notcontains $_.FullName } |
+        Select-Object -First ($TableSize - $todayMovers.Count)
+    if ($supplement) {
+        $todayMovers = @($todayMovers) + @($supplement)
+    }
+}
+
+# First run: no history at all
 if (-not $todayMovers -or $todayMovers.Count -eq 0) {
     Write-Host '  No star deltas yet — using recently active repositories for Today.' -ForegroundColor Yellow
     $todayMovers = Invoke-GitHubSearch -Query "$baseFilter pushed:>=$today" -PerPage $TableSize
     $showDelta = $false
-} else {
-    $showDelta = $true
 }
 
 Start-Sleep -Milliseconds 400
@@ -258,14 +301,48 @@ $statsYear = if ($yearRepos) { $yearRepos.Count } else { 0 }
 $readme = Get-Content -Path $ReadmePath -Raw -Encoding UTF8
 
 $readme = Set-ReadmeSection -Content $readme -Marker 'META' -NewBody @"
-**Last updated:** $updatedLocal  
-**Data refresh:** $updatedUtc · **Tracked repos:** $($velocityPool.Count) · **Star history:** $(if ($history.lastUpdated) { 'active' } else { 'building baseline' })
+<img src="https://img.shields.io/badge/Last%20Updated-$(Format-ShieldLabel $updatedLocal)-012456?style=for-the-badge&logo=clock&logoColor=white" alt="Last updated"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Data%20Refresh-$(Format-ShieldLabel $updatedUtc)-5EA9FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="Data refresh"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Tracked%20Repos-$($velocityPool.Count)-00C9A7?style=for-the-badge&logo=github&logoColor=white" alt="Tracked repos"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Star%20History-$(if ($history.lastUpdated) { 'active' } else { 'building%20baseline' })-$(if ($history.lastUpdated) { 'brightgreen' } else { 'yellow' })?style=for-the-badge&logo=star&logoColor=white" alt="Star history"/>
 "@
 
 $readme = Set-ReadmeSection -Content $readme -Marker 'STATS' -NewBody @"
-| 📅 Today | 📆 This Week | 🗓️ This Month | 📈 This Year |
-|:---:|:---:|:---:|:---:|
-| **$statsToday** trending | **$statsWeek** new repos | **$statsMonth** new repos | **$statsYear** new repos |
+<table align="center">
+<tr>
+<td align="center" width="25%">
+<br/>
+<h3>📅 Today</h3>
+<h2>$statsToday</h2>
+<sub>trending movers</sub>
+<br/><br/>
+</td>
+<td align="center" width="25%">
+<br/>
+<h3>📆 This Week</h3>
+<h2>$statsWeek</h2>
+<sub>new repos</sub>
+<br/><br/>
+</td>
+<td align="center" width="25%">
+<br/>
+<h3>🗓️ This Month</h3>
+<h2>$statsMonth</h2>
+<sub>new repos</sub>
+<br/><br/>
+</td>
+<td align="center" width="25%">
+<br/>
+<h3>📈 This Year</h3>
+<h2>$statsYear</h2>
+<sub>new repos</sub>
+<br/><br/>
+</td>
+</tr>
+</table>
 "@
 
 $readme = Set-ReadmeSection -Content $readme -Marker 'TODAY' -NewBody (ConvertTo-RepoTable -Repos $todayMovers -ShowDelta:$showDelta)
