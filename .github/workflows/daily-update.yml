@@ -1,0 +1,44 @@
+name: Daily Paradise Feed
+
+on:
+  schedule:
+    # Every day at 06:00 UTC
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install PowerShell 7
+        shell: bash
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y wget apt-transport-https software-properties-common
+          wget -q https://packages.microsoft.com/config/ubuntu/22.04/packages-microsoft-prod.deb
+          sudo dpkg -i packages-microsoft-prod.deb
+          sudo apt-get update -qq
+          sudo apt-get install -y powershell
+
+      - name: Update README tables
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: pwsh -NoProfile -File ./scripts/Update-ParadiseFeed.ps1
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md data/history.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: refresh PowerShell Paradise rankings ($(date -u +%Y-%m-%d))"
+            git push
+          fi
