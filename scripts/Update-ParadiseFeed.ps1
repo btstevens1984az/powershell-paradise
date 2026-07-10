@@ -291,7 +291,7 @@ Start-Sleep -Milliseconds 400
 $yearRepos = Invoke-GitHubSearch -Query "$baseFilter created:>=$yearStart" -PerPage $TableSize
 
 $updatedUtc = $nowUtc.ToString('yyyy-MM-dd HH:mm') + ' UTC'
-$updatedLocal = (Get-Date).ToString('dddd, MMMM d, yyyy · h:mm tt')
+$updatedDisplay = $nowUtc.ToString('dddd, MMMM d, yyyy · HH:mm') + ' UTC'
 
 $statsToday = if ($todayMovers) { $todayMovers.Count } else { 0 }
 $statsWeek = if ($weekRepos) { $weekRepos.Count } else { 0 }
@@ -301,7 +301,9 @@ $statsYear = if ($yearRepos) { $yearRepos.Count } else { 0 }
 $readme = Get-Content -Path $ReadmePath -Raw -Encoding UTF8
 
 $readme = Set-ReadmeSection -Content $readme -Marker 'META' -NewBody @"
-[![Last Updated](https://img.shields.io/badge/Last_Updated-$(Format-ShieldLabel ($updatedLocal -replace ' ', '_'))-012456?style=flat-square&logo=clock&logoColor=white)](https://github.com/btstevens1984az/powershell-paradise)
+<p align="center"><sub>🕐 <strong>Last refreshed:</strong> $updatedDisplay · <a href="https://github.com/btstevens1984az/powershell-paradise/actions/workflows/daily-update.yml">GitHub Actions</a></sub></p>
+
+[![Last Updated](https://img.shields.io/badge/Last_Updated-$(Format-ShieldLabel ($updatedDisplay -replace ' ', '_'))-012456?style=flat-square&logo=clock&logoColor=white)](https://github.com/btstevens1984az/powershell-paradise)
 &nbsp;
 [![Data Refresh](https://img.shields.io/badge/Data_Refresh-$(Format-ShieldLabel ($updatedUtc -replace ' ', '_'))-5EA9FF?style=flat-square&logo=githubactions&logoColor=white)](https://github.com/btstevens1984az/powershell-paradise/actions)
 &nbsp;
