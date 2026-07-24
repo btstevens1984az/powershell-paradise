@@ -56,8 +56,6 @@
 
 [![Last Updated](https://img.shields.io/badge/Last_Updated-Friday%2C_July_24%2C_2026_%C2%B7_08%3A03_UTC-012456?style=flat-square&logo=clock&logoColor=white)](https://github.com/btstevens1984az/powershell-paradise)
 &nbsp;
-[![Data Refresh](https://img.shields.io/badge/Data_Refresh-2026-07-24_08%3A03_UTC-5EA9FF?style=flat-square&logo=githubactions&logoColor=white)](https://github.com/btstevens1984az/powershell-paradise/actions)
-&nbsp;
 [![Tracked Repos](https://img.shields.io/badge/Tracked_Repos-100-00C9A7?style=flat-square&logo=github&logoColor=white)](https://github.com/btstevens1984az/powershell-paradise)
 &nbsp;
 [![Star History](https://img.shields.io/badge/Star_History-active-brightgreen?style=flat-square&logo=star&logoColor=white)](https://github.com/btstevens1984az/powershell-paradise)
