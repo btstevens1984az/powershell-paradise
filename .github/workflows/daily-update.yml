@@ -1,0 +1,51 @@
+name: Daily Paradise Feed
+
+on:
+  schedule:
+    # Every day at 06:00 UTC (GitHub may delay scheduled runs by up to a few hours)
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: paradise-feed
+  cancel-in-progress: false
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Verify PowerShell
+        shell: pwsh
+        run: $PSVersionTable.PSVersion
+
+      - name: Update README tables
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: pwsh
+        run: ./scripts/Update-ParadiseFeed.ps1
+
+      - name: Commit and push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "Brandon Stevens"
+          git config user.email "24858436+btstevens1984az@users.noreply.github.com"
+          git add README.md data/history.json
+
+          if git diff --staged --quiet; then
+            echo "No changes to commit — rankings already match the latest snapshot."
+            exit 0
+          fi
+
+          git commit -m "chore: refresh PowerShell Paradise rankings ($(date -u +%Y-%m-%d))"
+          git pull --rebase origin main
+          git push origin HEAD:main
