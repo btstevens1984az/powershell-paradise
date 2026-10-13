@@ -1,405 +1,405 @@
 {
   "repos": {
-    "ScoopInstaller/Scoop": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 24739
-    },
-    "dataplat/dbatools": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 2847
-    },
-    "hotvulcan/Thanos.sh": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 2959
-    },
-    "cmderdev/cmder": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 27006
-    },
-    "samratashok/nishang": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 10141
-    },
-    "last-byte/PersistenceSniper": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 2140
-    },
-    "Micke-K/IntuneManagement": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 2100
-    },
-    "dotnet/machinelearning-samples": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 4682
-    },
-    "janikvonrotz/awesome-powershell": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 5408
-    },
-    "FuzzySecurity/PowerShell-Suite": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 2737
-    },
-    "PowerShellEmpire/PowerTools": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 2210
-    },
-    "microsoft/WindowsDeveloperConfig": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 3128
-    },
-    "I-Am-Jakoby/Flipper-Zero-BadUSB": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 7143
-    },
-    "MicrosoftDocs/architecture-center": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 2026
-    },
-    "ChrisTitusTech/win10script": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 3485
-    },
-    "pbatard/Fido": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 2913
-    },
-    "ChrisTitusTech/winutil": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 64057
-    },
-    "safebuffer/vulnerable-AD": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 2333
-    },
-    "Integration-IT/Active-Directory-Exploitation-Cheat-Sheet": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 2774
-    },
-    "ScoopInstaller/Extras": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 2161
-    },
-    "PowerShellMafia/PowerSploit": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 13072
-    },
-    "sans-blue-team/DeepBlueCLI": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 2435
-    },
-    "Azure/Enterprise-Scale": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 1963
-    },
     "mandiant/commando-vm": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 7814
-    },
-    "denverdino/k8s-for-docker-desktop": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 5033
-    },
-    "chocolatey-archive/chocolatey": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 2792
-    },
-    "hak5/bashbunny-payloads": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 2976
-    },
-    "k8gege/K8tools": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 6234
-    },
-    "W4RH4WK/Debloat-Windows-10": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 6140
-    },
-    "DarkCoderSc/PowerRemoteDesktop": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 2247
-    },
-    "dafthack/MailSniper": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 3281
-    },
-    "Orange-Cyberdefense/GOAD": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 8458
-    },
-    "EmpireProject/Empire": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 7850
-    },
-    "JanDeDobbeleer/oh-my-posh2": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 5211
-    },
-    "NetSPI/PowerUpSQL": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 2743
-    },
-    "0xsyr0/OSCP": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 3860
-    },
-    "AutomatedLab/AutomatedLab": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 2229
-    },
-    "SpecterOps/BloodHound-Legacy": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 10608
-    },
-    "pnp/List-Formatting": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 2181
-    },
-    "cisagov/ScubaGear": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 2709
-    },
-    "0x6d69636b/windows_hardening": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 2666
-    },
-    "LeDragoX/Win-Debloat-Tools": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 6361
-    },
-    "microsoft/sql-server-samples": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 11252
-    },
-    "love2d-community/awesome-love2d": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 4516
-    },
-    "orlyjamie/mimikittenz": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 1865
-    },
-    "farag2/Sophia-Script-for-Windows": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 9792
-    },
-    "GuDaStudio/skills": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 2018
-    },
-    "S3cur3Th1sSh1t/WinPwn": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 3701
-    },
-    "411Hall/JAWS": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 2007
-    },
-    "jamesstringer90/Easy-GPU-PV": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 5579
-    },
-    "FalsePhilosopher/badusb": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 2015
-    },
-    "MicrosoftDocs/PowerShell-Docs": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 2565
-    },
-    "danielbohannon/Invoke-Obfuscation": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 4338
-    },
-    "Disassembler0/Win10-Initial-Setup-Script": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 4636
-    },
-    "tibold/svg-explorer-extension": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 3717
-    },
-    "mandiant/flare-vm": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 9124
-    },
-    "PowerShellOrg/PSKoans": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 1878
-    },
-    "devblackops/Terminal-Icons": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 2951
-    },
-    "Raphire/Win11Debloat": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 59110
-    },
-    "itm4n/PrivescCheck": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 3982
-    },
-    "mantvydasb/RedTeaming-Tactics-and-Techniques": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 4713
-    },
-    "ntdevlabs/tiny11builder": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 19788
-    },
-    "api0cradle/UltimateAppLockerByPassList": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 2086
-    },
-    "admindroid-community/powershell-scripts": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 2032
-    },
-    "NetSPI/MicroBurst": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 2459
-    },
-    "YerongAI/Office-Tool": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 14484
-    },
-    "builtbybel/bloatbox": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 1888
-    },
-    "dotnet/blazor": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 9255
-    },
-    "davidprowe/BadBlood": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 2272
-    },
-    "mgeeky/Penetration-Testing-Tools": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 3025
-    },
-    "jenkinsci/docker": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 7662
-    },
-    "hak5/usbrubberducky-payloads": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 6103
-    },
-    "Cloud-Architekt/AzureAD-Attack-Defense": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 2566
-    },
-    "zoicware/RemoveWindowsAI": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 13324
-    },
-    "fleschutz/PowerShell": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 3272
-    },
-    "omerbsezer/Fast-Kubernetes": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 3855
-    },
-    "SpotX-Official/SpotX": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 22687
-    },
-    "Microsoft365DSC/Microsoft365DSC": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 2410
+      "stars": 7812,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
     },
     "dafthack/DomainPasswordSpray": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 2094
-    },
-    "ThioJoe/Windows-Super-God-Mode": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 2075
-    },
-    "pester/Pester": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 3356
-    },
-    "monoxgas/sRDI": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 2552
-    },
-    "ScoopInstaller/Main": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 1874
-    },
-    "rasta-mouse/Sherlock": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 2018
-    },
-    "psmux/psmux": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 3652
-    },
-    "dotnet/core": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 22037
-    },
-    "Sycnex/Windows10Debloater": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 18807
-    },
-    "actions/runner-images": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 13469
-    },
-    "MicrosoftDocs/Virtualization-Documentation": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 1922
+      "stars": 2095,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
     },
     "dahlbyk/posh-git": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 8273
+      "stars": 8272,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
     },
-    "microsoft/windows-dev-box-setup-scripts": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 1878
+    "pbatard/Fido": {
+      "stars": 2912,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
     },
-    "zhaoxuya520/reverse-skill": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 41250
+    "devblackops/Terminal-Icons": {
+      "stars": 2950,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
     },
-    "nettitude/PoshC2": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 2137
+    "PowerShellEmpire/PowerTools": {
+      "stars": 2210,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
     },
-    "peewpw/Invoke-PSImage": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 2187
+    "dafthack/MailSniper": {
+      "stars": 3282,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
     },
-    "Azure/Microsoft-Defender-for-Cloud": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 1958
+    "chocolatey-archive/chocolatey": {
+      "stars": 2792,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "mandiant/flare-vm": {
+      "stars": 9124,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "love2d-community/awesome-love2d": {
+      "stars": 4518,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "Micke-K/IntuneManagement": {
+      "stars": 2100,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "W4RH4WK/Debloat-Windows-10": {
+      "stars": 6140,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
     },
     "meetrevision/playbook": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 2095
-    },
-    "lazywinadmin/PowerShell": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 2882
-    },
-    "dfinke/ImportExcel": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 2748
+      "stars": 2096,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
     },
     "besimorhino/powercat": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 2394
+      "stars": 2395,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "Integration-IT/Active-Directory-Exploitation-Cheat-Sheet": {
+      "stars": 2774,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "MicrosoftDocs/Virtualization-Documentation": {
+      "stars": 1922,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "lazywinadmin/PowerShell": {
+      "stars": 2883,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "I-Am-Jakoby/Flipper-Zero-BadUSB": {
+      "stars": 7144,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "MicrosoftDocs/PowerShell-Docs": {
+      "stars": 2563,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "jenkinsci/docker": {
+      "stars": 7663,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "microsoft/sql-server-samples": {
+      "stars": 11257,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "Raphire/Win11Debloat": {
+      "stars": 59181,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "janikvonrotz/awesome-powershell": {
+      "stars": 5408,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "danielbohannon/Invoke-Obfuscation": {
+      "stars": 4338,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "cisagov/ScubaGear": {
+      "stars": 2712,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "dotnet/core": {
+      "stars": 22037,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "JanDeDobbeleer/oh-my-posh2": {
+      "stars": 5210,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "DarkCoderSc/PowerRemoteDesktop": {
+      "stars": 2247,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "Disassembler0/Win10-Initial-Setup-Script": {
+      "stars": 4636,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "samratashok/nishang": {
+      "stars": 10143,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "411Hall/JAWS": {
+      "stars": 2007,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "Sycnex/Windows10Debloater": {
+      "stars": 18808,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
     },
     "Romanitho/Winget-AutoUpdate": {
-      "recordedAt": "2026-10-12T14:26:13.2489134Z",
-      "stars": 2012
+      "stars": 2011,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "scipag/HardeningKitty": {
+      "stars": 1857,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "PowerShellMafia/PowerSploit": {
+      "stars": 13071,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "PowerShellOrg/PSKoans": {
+      "stars": 1878,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "SpotX-Official/SpotX": {
+      "stars": 22703,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "YerongAI/Office-Tool": {
+      "stars": 14493,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "mgeeky/Penetration-Testing-Tools": {
+      "stars": 3026,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "NetSPI/MicroBurst": {
+      "stars": 2462,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "peewpw/Invoke-PSImage": {
+      "stars": 2187,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "psmux/psmux": {
+      "stars": 3656,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "S3cur3Th1sSh1t/WinPwn": {
+      "stars": 3702,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "cmderdev/cmder": {
+      "stars": 27007,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "mantvydasb/RedTeaming-Tactics-and-Techniques": {
+      "stars": 4714,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "davidprowe/BadBlood": {
+      "stars": 2272,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "LeDragoX/Win-Debloat-Tools": {
+      "stars": 6361,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "microsoft/WindowsDeveloperConfig": {
+      "stars": 3137,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "dataplat/dbatools": {
+      "stars": 2847,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "sans-blue-team/DeepBlueCLI": {
+      "stars": 2436,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "hak5/bashbunny-payloads": {
+      "stars": 2976,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "MicrosoftDocs/architecture-center": {
+      "stars": 2026,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "Azure/Enterprise-Scale": {
+      "stars": 1963,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "dotnet/machinelearning-samples": {
+      "stars": 4682,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "itm4n/PrivescCheck": {
+      "stars": 3984,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "ChrisTitusTech/winutil": {
+      "stars": 64109,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "zoicware/RemoveWindowsAI": {
+      "stars": 13339,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "k8gege/K8tools": {
+      "stars": 6234,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "builtbybel/bloatbox": {
+      "stars": 1888,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "SpecterOps/BloodHound-Legacy": {
+      "stars": 10609,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "pnp/List-Formatting": {
+      "stars": 2181,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "nettitude/PoshC2": {
+      "stars": 2137,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "ScoopInstaller/Scoop": {
+      "stars": 24739,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "Azure/Microsoft-Defender-for-Cloud": {
+      "stars": 1959,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "Microsoft365DSC/Microsoft365DSC": {
+      "stars": 2411,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "EmpireProject/Empire": {
+      "stars": 7850,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "dfinke/ImportExcel": {
+      "stars": 2748,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "orlyjamie/mimikittenz": {
+      "stars": 1865,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "api0cradle/UltimateAppLockerByPassList": {
+      "stars": 2086,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "pester/Pester": {
+      "stars": 3356,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "hotvulcan/Thanos.sh": {
+      "stars": 2959,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "omerbsezer/Fast-Kubernetes": {
+      "stars": 3855,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "dotnet/blazor": {
+      "stars": 9253,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "last-byte/PersistenceSniper": {
+      "stars": 2140,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "GuDaStudio/skills": {
+      "stars": 2020,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "tibold/svg-explorer-extension": {
+      "stars": 3720,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "rasta-mouse/Sherlock": {
+      "stars": 2018,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "FuzzySecurity/PowerShell-Suite": {
+      "stars": 2737,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "0x6d69636b/windows_hardening": {
+      "stars": 2665,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "jamesstringer90/Easy-GPU-PV": {
+      "stars": 5579,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "Cloud-Architekt/AzureAD-Attack-Defense": {
+      "stars": 2568,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "actions/runner-images": {
+      "stars": 13474,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "Orange-Cyberdefense/GOAD": {
+      "stars": 8462,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "fleschutz/PowerShell": {
+      "stars": 3272,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "hak5/usbrubberducky-payloads": {
+      "stars": 6108,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "safebuffer/vulnerable-AD": {
+      "stars": 2335,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "ScoopInstaller/Main": {
+      "stars": 1873,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "microsoft/windows-dev-box-setup-scripts": {
+      "stars": 1878,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "AutomatedLab/AutomatedLab": {
+      "stars": 2230,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "ScoopInstaller/Extras": {
+      "stars": 2161,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "monoxgas/sRDI": {
+      "stars": 2552,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "FalsePhilosopher/badusb": {
+      "stars": 2016,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "ThioJoe/Windows-Super-God-Mode": {
+      "stars": 2075,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "denverdino/k8s-for-docker-desktop": {
+      "stars": 5031,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "farag2/Sophia-Script-for-Windows": {
+      "stars": 9793,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "NetSPI/PowerUpSQL": {
+      "stars": 2745,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "ChrisTitusTech/win10script": {
+      "stars": 3485,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "admindroid-community/powershell-scripts": {
+      "stars": 2032,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "zhaoxuya520/reverse-skill": {
+      "stars": 41599,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
+    },
+    "0xsyr0/OSCP": {
+      "stars": 3860,
+      "recordedAt": "2026-10-13T13:34:56.4311853Z"
     }
   },
-  "lastUpdated": "2026-10-12T14:26:21.7689032Z"
+  "lastUpdated": "2026-10-13T13:35:05.3267307Z"
 }
